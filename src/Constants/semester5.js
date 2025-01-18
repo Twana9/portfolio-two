@@ -27,6 +27,27 @@ import { Absorption,
       id:2,
       name:'reactor',
       Sheet1:Sheet1,
+      Sheet4:Sheet4,
+      ReactorQuestions:ReactorQuestions,
 
+    };
+    const lab3a ={
+      id:3,
+      name:'lab3a',
+      Heat1:Heat1,
+      Service:Service,
+      Solutions:Solutions,
+      BatchReactor:BatchReactor,
+    };
+    const industry={
+      id:4,
+      name:'industry',
+      IndustryQuestions:IndustryQuestions,
+    }
+    export{
+      unit,
+      reactor,
+lab3a,
+industry
     }
   
