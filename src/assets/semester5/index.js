@@ -18,3 +18,20 @@ import BatchReactor from "./batch reactor.pdf";
 
 //////industry/////////////////////////////////////
 import IndustryQuestions from "./questions.pdf";
+
+export {
+  Absorption,
+  Diffusion,
+  Extraction,
+  Report,
+  UnitQuestions,
+  Sa7dan,
+  Sheet1,
+  Sheet4,
+  ReactorQuestions,
+  Heat1,
+  Service,
+  Solutions,
+  BatchReactor,
+  IndustryQuestions
+}
