@@ -1,5 +1,39 @@
+import { useEffect, useState } from "react";
 import Profile from "../../public/logo.webp";
+import { Link } from "react-router-dom";
+import Hamburger from "../assets/hamburger.svg";
+import "./Nav.css";
 export default function Nav() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  function handleClick() {
+    setIsMenuOpen(true);
+  }
+  function handleClose(e) {
+    e.stopPropagation();
+    setIsMenuOpen(!isMenuOpen);
+  }
+  function top() {
+    window.scrollTo(0, 0);
+  }
+  ///////////////////////////////////////////////////
+  useEffect(() => {
+    function handleResize() {
+      if (window.innerWidth > 1024) setIsMenuOpen(false);
+    }
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [isMenuOpen]);
+  ///////////////////////////////////////////////////
+  useEffect(() => {
+    if (isMenuOpen) document.body.classList.add("overflow-hidden");
+    else document.body.classList.remove("overflow-hidden");
+    return () => {
+      document.body.classList.remove("overflow-hidden");
+    };
+  }, [isMenuOpen]);
   return (
     <div
       className="h-[70px] px-[30px] border border-red-700 
@@ -43,6 +77,68 @@ export default function Nav() {
           LOGIN
         </button>
       </div>
+      <div className="lg:hidden" onClick={handleClick}>
+        <img
+          src={Hamburger}
+          alt="nav"
+          height={45}
+          width={45}
+          className="object-contain max-md:h-[33px] max-md:w-[33px]
+            max-lg:w-[40px] max-lg:h-[40px] cursor-pointer"
+        />
+
+        <Hamburger isMenuOpen={isMenuOpen} handleClose={handleClose} />
+      </div>
+    </div>
+  );
+}
+function Hamburger({ isMenuOpen, handleClose }) {
+  return (
+    <div
+      className={`fixed  inset-0 transform lg:hidden
+      transition-transform duration-400 z-50 
+      ${isMenuOpen ? "translate-x-0" : "translate-x-full"}`}
+    >
+      <div
+        className="absolute top-0 right-0 w-[80%] h-full
+       bg-white z-40 p-4"
+      >
+        <ul
+          className="flex flex-col items-start gap-10
+        font-medium text-lg text-slate-700
+        font-monserat p-16 "
+        >
+          <li
+            onClick={(e) => {
+              handleClose(e);
+            }}
+            className="li-small"
+          >
+            <Link to="/">Home</Link>
+          </li>
+          <li
+            onClick={(e) => {
+              handleClose(e);
+            }}
+            className="li-small"
+          >
+            Men
+          </li>
+          <li
+            onClick={(e) => {
+              handleClose(e);
+            }}
+            className="li-small"
+          >
+            Women
+          </li>
+        </ul>
+      </div>
+      <div
+        onClick={handleClose}
+        className={`fixed top-0  right-0 h-full w-full
+         bg-black  opacity-40 `}
+      ></div>
     </div>
   );
 }
