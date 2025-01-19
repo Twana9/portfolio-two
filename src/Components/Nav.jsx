@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Profile from "../../public/logo.webp";
 import { Link } from "react-router-dom";
-import Hamburger from "../assets/hamburger.svg";
+import hamburger from "../assets/hamburger.svg";
 import "./Nav.css";
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,19 +36,29 @@ export default function Nav() {
   }, [isMenuOpen]);
   return (
     <div
-      className="h-[70px] px-[30px] border border-red-700 
-    flex justify-between items-center z-50 sticky"
+      className="h-[70px] px-[30px]  
+    flex justify-between items-center z-50 sticky
+     shadow-nav
+     shadow-black max-lg:px-[20px] max-lg:justify-between
+      top-0 bg-white max-sm:px-[10px]"
     >
-      <div className="flex justify-between items-center w-[220px]">
+      <div
+        className="flex justify-between items-center w-[220px]
+      max-md:gap-2 cursor-pointer max-xl:w-[150px] max-sm:w-[55px] max-sm:gap-0.5"
+      >
         <img
           src={Profile}
           alt=""
-          className="h-[61px] w-[60px] 
-        rounded-full shadow-slate-500 shadow-sm"
+          className="h-[65px] w-[65px] 
+        rounded-full 
+        object-contain 
+           max-lg:w-[65px] max-lg:h-[65px]
+          mb-1"
         />
         <p
           className="font-palanquin text-coral-red text-[35px]
-        font-bold"
+        font-bold max-xl:text-[27px] max-sm:text-[20px]
+        "
         >
           Twana99
         </p>
@@ -56,12 +66,17 @@ export default function Nav() {
 
       {/* ///////nav/////// */}
       <ul
-        className="flex justify-center items-center gap-10 
-      font-palanquin font-semibold text-lg text-slate-800 
-       lg:gap-20"
+        className="flex justify-center items-center gap-20 
+      font-palanquin font-semibold text-lg text-gray-700 
+        max-xl:gap-14 max-lg:hidden
+       "
       >
-        <li className="hover:text-coral-red hover:cursor-pointer">Home</li>
-        <li className="hover:text-coral-red hover:cursor-pointer">Stage 3</li>
+        <li className="hover:text-coral-red hover:cursor-pointer">
+          <Link to="/">Home</Link>
+        </li>
+        <li className="hover:text-coral-red hover:cursor-pointer">
+          <Link to="/Stage3">Stage 3</Link>
+        </li>
         <li className="hover:text-coral-red hover:cursor-pointer">Skills</li>
         <li className="hover:text-coral-red hover:cursor-pointer">Projects</li>
         <li className="hover:text-coral-red hover:cursor-pointer">
@@ -72,14 +87,14 @@ export default function Nav() {
         <button
           className="bg-coral-red px-8 py-3 text-white
          text-lg font-semibold rounded-lg active:translate-y-0.5
-         hover:shadow-slate-300 hover:shadow-3xl"
+         hover:shadow-slate-300 hover:shadow-3xl max-lg:hidden"
         >
           LOGIN
         </button>
       </div>
       <div className="lg:hidden" onClick={handleClick}>
         <img
-          src={Hamburger}
+          src={hamburger}
           alt="nav"
           height={45}
           width={45}
@@ -92,27 +107,28 @@ export default function Nav() {
     </div>
   );
 }
+
 function Hamburger({ isMenuOpen, handleClose }) {
   return (
     <div
       className={`fixed  inset-0 transform lg:hidden
-      transition-transform duration-400 z-50 
-      ${isMenuOpen ? "translate-x-0" : "translate-x-full"}`}
+        transition-transform duration-400 z-50 
+        ${isMenuOpen ? "translate-x-0" : "translate-x-full"}`}
     >
       <div
         className="absolute top-0 right-0 w-[80%] h-full
-       bg-white z-40 p-4"
+         bg-white z-40 p-4"
       >
         <ul
           className="flex flex-col items-start gap-10
-        font-medium text-lg text-slate-700
-        font-monserat p-16 "
+          font-medium text-lg text-slate-700
+          font-monserat p-16 "
         >
           <li
+            className="hover:text-coral-red hover:cursor-pointer li-small"
             onClick={(e) => {
               handleClose(e);
             }}
-            className="li-small"
           >
             <Link to="/">Home</Link>
           </li>
@@ -122,22 +138,52 @@ function Hamburger({ isMenuOpen, handleClose }) {
             }}
             className="li-small"
           >
-            Men
+            <Link
+              to="/Stage3"
+              className="hover:text-coral-red hover:cursor-pointer"
+            >
+              Stage 3
+            </Link>
           </li>
           <li
             onClick={(e) => {
               handleClose(e);
             }}
-            className="li-small"
+            className="li-small hover:text-coral-red hover:cursor-pointer"
           >
-            Women
+            Skills
+          </li>
+          <li
+            onClick={(e) => {
+              handleClose(e);
+            }}
+            className="li-small hover:text-coral-red hover:cursor-pointer"
+          >
+            Projects
+          </li>
+          <li
+            onClick={(e) => {
+              handleClose(e);
+            }}
+            className="li-small hover:text-coral-red hover:cursor-pointer"
+          >
+            Certifications
+          </li>
+          <li className="li-small hover:text-coral-red hover:cursor-pointer">
+            <button
+              className="bg-coral-red px-8 py-3 text-white
+         text-lg font-semibold rounded-lg active:translate-y-0.5
+         hover:shadow-slate-300 hover:shadow-3xl "
+            >
+              LOGIN
+            </button>
           </li>
         </ul>
       </div>
       <div
         onClick={handleClose}
         className={`fixed top-0  right-0 h-full w-full
-         bg-black  opacity-40 `}
+           bg-black  opacity-40 `}
       ></div>
     </div>
   );
