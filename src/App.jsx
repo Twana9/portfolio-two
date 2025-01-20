@@ -1,7 +1,7 @@
-import reactLogo from "./assets/react.svg";
 import Nav from "./Components/Nav";
 import Home from "./Pages/Home";
 import Stage3 from "./Pages/Stage3";
+import Footer from "./Components/Footer";
 
 import { Route, Routes } from "react-router-dom";
 
@@ -13,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/stage3" element={<Stage3 />} />
       </Routes>
+      <Footer />
     </>
   );
 }

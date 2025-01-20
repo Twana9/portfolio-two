@@ -12,14 +12,14 @@ export default function Hero() {
         className="md:w-1/2 text-center md:text-left lg:space-y-4
       space-y-8"
       >
-        <p className="text-gray-600 text-lg">Hi, I'm Twana</p>
+        <p className="text-gray-600 text-2xl">Hi, I'm Twana</p>
         <h1
           className="text-3xl lg:text-4xl font-bold text-gray-800
         md:text-[38px]"
         >
           A Chemical Engineering Student
         </h1>
-        <p className="text-gray-600 text-base md:text-lg">
+        <p className="text-gray-600 text-base md:text-2xl">
           Stage Three student at Koya University
         </p>
       </div>
