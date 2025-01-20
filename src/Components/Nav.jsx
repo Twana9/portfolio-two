@@ -43,6 +43,7 @@ export default function Nav() {
       top-0 bg-white max-sm:px-[10px]"
     >
       <div
+        onClick={() => top()}
         className="flex justify-between items-center w-[220px]
       max-md:gap-2 cursor-pointer max-xl:w-[150px] max-sm:w-[55px] max-sm:gap-0.5"
       >
@@ -77,8 +78,12 @@ export default function Nav() {
         <li className="hover:text-coral-red hover:cursor-pointer">
           <Link to="/Stage3">Stage 3</Link>
         </li>
-        <li className="hover:text-coral-red hover:cursor-pointer">Skills</li>
-        <li className="hover:text-coral-red hover:cursor-pointer">Projects</li>
+        <li className="hover:text-coral-red hover:cursor-pointer">
+          <a href="#Skills">Skills</a>
+        </li>
+        <li className="hover:text-coral-red hover:cursor-pointer">
+          <a href="#Projects">Projects</a>
+        </li>
         <li className="hover:text-coral-red hover:cursor-pointer">
           Certifications
         </li>
@@ -151,7 +156,7 @@ function Hamburger({ isMenuOpen, handleClose }) {
             }}
             className="li-small hover:text-coral-red hover:cursor-pointer"
           >
-            Skills
+            <a href="#Skills">Skills</a>
           </li>
           <li
             onClick={(e) => {
@@ -159,7 +164,7 @@ function Hamburger({ isMenuOpen, handleClose }) {
             }}
             className="li-small hover:text-coral-red hover:cursor-pointer"
           >
-            Projects
+            <a href="#Projects">Projects</a>
           </li>
           <li
             onClick={(e) => {

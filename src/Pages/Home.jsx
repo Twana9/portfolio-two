@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div>
       <Hero />
+
       <Skills />
       <Projects />
     </div>
