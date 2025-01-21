@@ -72,10 +72,16 @@ export default function Nav() {
         max-xl:gap-14 max-lg:hidden
        "
       >
-        <li className="hover:text-coral-red hover:cursor-pointer">
+        <li
+          className="hover:text-coral-red hover:cursor-pointer"
+          onClick={() => top()}
+        >
           <Link to="/">Home</Link>
         </li>
-        <li className="hover:text-coral-red hover:cursor-pointer">
+        <li
+          className="hover:text-coral-red hover:cursor-pointer"
+          onClick={() => top()}
+        >
           <Link to="/Stage3">Stage 3</Link>
         </li>
         <li className="hover:text-coral-red hover:cursor-pointer">
