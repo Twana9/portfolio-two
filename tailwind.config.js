@@ -35,6 +35,9 @@ export default {
       screens: {
         wide: "1440px",
       },
+      animation: {
+        spinSlow: "spin 60s linear infinite",
+      },
     },
   },
   plugins: [],
