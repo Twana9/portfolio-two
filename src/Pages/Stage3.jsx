@@ -1,6 +1,6 @@
+import Absorption from "../assets/semester5/Absorptionn.pdf";
 import Moon from "../../public/moon3.webp";
 import "./stage3.css";
-import { Absorption } from "../assets/semester5";
 export default function Stage3() {
   return (
     <div className="flex flex-col overflow-hidden">
