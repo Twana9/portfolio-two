@@ -19,8 +19,8 @@ export default function Footer() {
 
       <hr className="h-[4px] w-[50%] bg-slate-300 rounded-full max-sm:w-[70%]" />
       <div
-        className="flex justify-center items-center gap-16 w-[50%] 
-      max-sm:gap-7 pb-6"
+        className="flex justify-center items-center gap-16 w-[60%] 
+      max-sm:gap-5 pb-6"
       >
         <img
           src={Facebook}

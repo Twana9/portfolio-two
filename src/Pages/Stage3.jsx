@@ -1,4 +1,3 @@
-import Absorption from "../assets/semester5/Absorptionn.pdf";
 import { unit, reactor, lab3a, industry } from "../Constants/semester5";
 import Moon from "../../public/moon3.webp";
 import "./stage3.css";
@@ -36,7 +35,8 @@ export default function Stage3() {
       <div className="flex flex-col justify-center items-center p-9 w-full gap-5">
         <button
           class=" text-xl w-[50%] px-5 rounded-xl
-         bg-purple-500 h-[60px] text-white font-bold "
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
         >
           <a
             href={unit.Absorption}
@@ -59,7 +59,8 @@ export default function Stage3() {
         </button>
         <button
           class=" text-xl w-[50%] px-5 rounded-xl
-         bg-purple-500 h-[60px] text-white font-bold "
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
         >
           <a
             href={unit.Diffusion}
@@ -82,7 +83,8 @@ export default function Stage3() {
         </button>
         <button
           class=" text-xl w-[50%] px-5 rounded-xl
-         bg-purple-500 h-[60px] text-white font-bold "
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
         >
           <a
             href={unit.Extraction}
@@ -104,7 +106,7 @@ export default function Stage3() {
           </a>
         </button>
         <button
-          class=" text-xl w-[50%] px-5 rounded-xl
+          class=" text-xl w-[50%] max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%] px-5 rounded-xl
          bg-purple-500 h-[60px] text-white font-bold "
         >
           <a
@@ -112,7 +114,7 @@ export default function Stage3() {
             download={unit.Report}
             className="flex justify-between items-center"
           >
-            Report which got top mark 6/6.5
+            The Report which got highest mark 6/6.5
             <div className="flex flex-col justify-center items-center">
               <svg
                 class="svgIcon"
@@ -128,7 +130,8 @@ export default function Stage3() {
         </button>
         <button
           class=" text-xl w-[50%] px-5 rounded-xl
-         bg-purple-500 h-[60px] text-white font-bold "
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
         >
           <a
             href={unit.UnitQuestions}
@@ -151,7 +154,8 @@ export default function Stage3() {
         </button>
         <button
           class=" text-xl w-[50%] px-5 rounded-xl
-         bg-purple-500 h-[60px] text-white font-bold "
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
         >
           <a
             href={unit.Sa7dan}
@@ -159,6 +163,229 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Politics of Sa7dan
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                class="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span class="icon2"></span>
+            </div>
+          </a>
+        </button>
+      </div>
+
+      {/* /////////reactor////////////// */}
+      <h1
+        className="text-3xl font-palanquin text-slate-700 md:text-4xl mb-6
+      font-semibold  mt-10 scroll-m-16 w-full text-center"
+      >
+        Reactor Design
+      </h1>
+
+      <div className="flex flex-col justify-center items-center p-9 w-full gap-5">
+        <button
+          class=" text-xl w-[50%]  px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a
+            href={reactor.Sheet1}
+            download={reactor.Sheet1}
+            className="flex justify-between items-center"
+          >
+            Sheet-1 answers
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                class="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span class="icon2"></span>
+            </div>
+          </a>
+        </button>
+        <button
+          class=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a
+            href={reactor.Sheet4}
+            download={reactor.Sheet4}
+            className="flex justify-between items-center"
+          >
+            Sheet-4 answers
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                class="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span class="icon2"></span>
+            </div>
+          </a>
+        </button>
+        <button
+          class=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a
+            href={reactor.ReactorQuestions}
+            download={reactor.ReactorQuestions}
+            className="flex justify-between items-center"
+          >
+            Final & Midterm Questions + Sa7dan
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                class="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span class="icon2"></span>
+            </div>
+          </a>
+        </button>
+      </div>
+      {/* ////////////Lab-3//////////// */}
+      <h1
+        className="text-3xl font-palanquin text-slate-700 md:text-4xl mb-6
+      font-semibold  mt-10 scroll-m-16 w-full text-center"
+      >
+        Lab-3
+      </h1>
+
+      <div className="flex flex-col justify-center items-center p-9 w-full gap-5">
+        <button
+          class=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a
+            href={lab3a.Heat1}
+            download={lab3a.Heat1}
+            className="flex justify-between items-center"
+          >
+            Double Pipe Heat exchanger
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                class="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span class="icon2"></span>
+            </div>
+          </a>
+        </button>
+        <button
+          class=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a
+            href={lab3a.Service}
+            download={lab3a.Service}
+            className="flex justify-between items-center"
+          >
+            Service unit & Control interface
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                class="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span class="icon2"></span>
+            </div>
+          </a>
+        </button>
+        <button
+          class=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a
+            href={lab3a.Solutions}
+            download={lab3a.Solutions}
+            className="flex justify-between items-center"
+          >
+            Preparing of Solutions
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                class="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span class="icon2"></span>
+            </div>
+          </a>
+        </button>
+        <button
+          class=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a
+            href={lab3a.BatchReactor}
+            download={lab3a.BatchReactor}
+            className="flex justify-between items-center"
+          >
+            Bach Reactor
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                class="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span class="icon2"></span>
+            </div>
+          </a>
+        </button>
+      </div>
+      {/* ////////////industry///////////// */}
+      <h1
+        className="text-3xl font-palanquin text-slate-700 md:text-4xl mb-6
+      font-semibold  mt-10 scroll-m-16 w-full text-center"
+      >
+        Chemical Industries
+      </h1>
+
+      <div className="flex flex-col justify-center items-center p-9 w-full gap-5">
+        <button
+          class=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a
+            href={industry.IndustryQuestions}
+            download={industry.IndustryQuestions}
+            className="flex justify-between items-center"
+          >
+            Final & Midterm Questions
             <div className="flex flex-col justify-center items-center">
               <svg
                 class="svgIcon"
