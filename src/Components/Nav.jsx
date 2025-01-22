@@ -85,10 +85,10 @@ export default function Nav() {
           <Link to="/Stage3">Stage 3</Link>
         </li>
         <li className="hover:text-coral-red hover:cursor-pointer">
-          <a href="#Skills">Skills</a>
+          <a href="/#Skills">Skills</a>
         </li>
         <li className="hover:text-coral-red hover:cursor-pointer">
-          <a href="#Projects">Projects</a>
+          <a href="/#Projects">Projects</a>
         </li>
         <li className="hover:text-coral-red hover:cursor-pointer">
           Certifications
@@ -162,7 +162,7 @@ function Hamburger({ isMenuOpen, handleClose }) {
             }}
             className="li-small hover:text-coral-red hover:cursor-pointer"
           >
-            <a href="#Skills">Skills</a>
+            <a href="/#Skills">Skills</a>
           </li>
           <li
             onClick={(e) => {
@@ -170,7 +170,7 @@ function Hamburger({ isMenuOpen, handleClose }) {
             }}
             className="li-small hover:text-coral-red hover:cursor-pointer"
           >
-            <a href="#Projects">Projects</a>
+            <a href="/#Projects">Projects</a>
           </li>
           <li
             onClick={(e) => {
