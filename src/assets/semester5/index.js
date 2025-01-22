@@ -3,7 +3,7 @@ import Diffusion from "./diffusion.pdf";
 import Extraction from "./Extraction.pdf";
 import Sa7dan from "./sa7dan.pdf";
 import UnitQuestions from "./UnitQuestions.pdf";
-import Report from "./control system in distillation towers-report.docx";
+import Report from "./control system in distillation towers-report.pdf";
 
 ////Reactor////////////////////////////////////////
 import Sheet1 from "./Sheet 1 answers.pdf";
@@ -12,7 +12,7 @@ import ReactorQuestions from "./Reactor questions.pdf";
 
 /////Labs3/////////////////////////////////////////
 import Heat1 from "./heat1.pdf";
-import Service from "./service.docx";
+import Service from "./service.pdf";
 import Solutions from "./solutions.pdf";
 import BatchReactor from "./batch reactor.pdf";
 
@@ -33,5 +33,5 @@ export {
   Service,
   Solutions,
   BatchReactor,
-  IndustryQuestions
-}
+  IndustryQuestions,
+};
