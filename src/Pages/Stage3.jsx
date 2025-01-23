@@ -43,7 +43,7 @@ export default function Stage3() {
             download={unit.Absorption}
             className="flex justify-between items-center"
           >
-            Absorbtion Sheet
+            Absorption Sheet
             <div className="flex flex-col justify-center items-center">
               <svg
                 class="svgIcon"
@@ -114,7 +114,7 @@ export default function Stage3() {
             download={unit.Report}
             className="flex justify-between items-center"
           >
-            The Report which got highest mark 6/6.5
+            The Report which got the best mark 6/6.5
             <div className="flex flex-col justify-center items-center">
               <svg
                 class="svgIcon"
@@ -351,7 +351,7 @@ export default function Stage3() {
             download={lab3a.BatchReactor}
             className="flex justify-between items-center"
           >
-            Bach Reactor
+            Batch Reactor
             <div className="flex flex-col justify-center items-center">
               <svg
                 class="svgIcon"
