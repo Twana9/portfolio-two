@@ -47,7 +47,10 @@ export default function Nav() {
         className="flex justify-between items-center w-[220px]
       max-md:gap-2 cursor-pointer max-xl:w-[150px] max-sm:w-[55px] max-sm:gap-0.5"
       >
-        <Link to="/">
+        <Link
+          to="/"
+          className="max-lg:min-w-[65px] max-lg:min-h-[65px] h-[65px] w-[65px] "
+        >
           <img
             src={Profile}
             alt=""
@@ -141,7 +144,7 @@ function Hamburger({ isMenuOpen, handleClose }) {
             className="hover:text-coral-red hover:cursor-pointer li-small"
             onClick={(e) => {
               handleClose(e);
-              top();
+              scrollTo(0, 0);
             }}
           >
             <Link to="/">Home</Link>
@@ -149,7 +152,7 @@ function Hamburger({ isMenuOpen, handleClose }) {
           <li
             onClick={(e) => {
               handleClose(e);
-              top();
+              scrollTo(0, 0);
             }}
             className="li-small"
           >
