@@ -51,3 +51,13 @@
     h-[3px] rounded-[10px] bg-red-500;
   }
 }
+
+button {
+  background-color: rgb(141, 83, 248);
+}
+.pone {
+  color: rgb(141, 83, 248);
+}
+li:hover {
+  color: rgb(141, 83, 248);
+}

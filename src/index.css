@@ -14,3 +14,6 @@ body {
 a {
   text-decoration: none;
 }
+button {
+  background-color: rgb(141, 83, 248);
+}

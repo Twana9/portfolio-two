@@ -62,7 +62,7 @@ export default function Nav() {
           />
         </Link>
         <p
-          className="font-palanquin text-coral-red text-[35px]
+          className="font-palanquin pone text-[35px]
         font-bold max-xl:text-[27px] max-sm:text-[20px]
         "
         >
@@ -77,31 +77,23 @@ export default function Nav() {
         max-xl:gap-14 max-lg:hidden
        "
       >
-        <li
-          className="hover:text-coral-red hover:cursor-pointer"
-          onClick={() => top()}
-        >
+        <li className=" hover:cursor-pointer" onClick={() => top()}>
           <Link to="/">Home</Link>
         </li>
-        <li
-          className="hover:text-coral-red hover:cursor-pointer"
-          onClick={() => top()}
-        >
+        <li className=" hover:cursor-pointer" onClick={() => top()}>
           <Link to="/Stage3">Stage 3</Link>
         </li>
-        <li className="hover:text-coral-red hover:cursor-pointer">
+        <li className=" hover:cursor-pointer">
           <a href="/#Skills">Skills</a>
         </li>
-        <li className="hover:text-coral-red hover:cursor-pointer">
+        <li className=" hover:cursor-pointer">
           <a href="/#Projects">Projects</a>
         </li>
-        <li className="hover:text-coral-red hover:cursor-pointer">
-          Certifications
-        </li>
+        <li className=" hover:cursor-pointer">Certifications</li>
       </ul>
       <div>
         <button
-          className="bg-coral-red px-8 py-3 text-white
+          className="btnii px-8 py-3 text-white
          text-lg font-semibold rounded-lg active:translate-y-0.5
          hover:shadow-slate-300 hover:shadow-3xl max-lg:hidden"
         >
@@ -141,7 +133,7 @@ function Hamburger({ isMenuOpen, handleClose }) {
           font-monserat p-16 "
         >
           <li
-            className="hover:text-coral-red hover:cursor-pointer li-small"
+            className=" hover:cursor-pointer li-small"
             onClick={(e) => {
               handleClose(e);
               scrollTo(0, 0);
@@ -156,10 +148,7 @@ function Hamburger({ isMenuOpen, handleClose }) {
             }}
             className="li-small"
           >
-            <Link
-              to="/Stage3"
-              className="hover:text-coral-red hover:cursor-pointer"
-            >
+            <Link to="/Stage3" className=" hover:cursor-pointer">
               Stage 3
             </Link>
           </li>
@@ -167,7 +156,7 @@ function Hamburger({ isMenuOpen, handleClose }) {
             onClick={(e) => {
               handleClose(e);
             }}
-            className="li-small hover:text-coral-red hover:cursor-pointer"
+            className="li-small  hover:cursor-pointer"
           >
             <a href="/#Skills">Skills</a>
           </li>
@@ -175,7 +164,7 @@ function Hamburger({ isMenuOpen, handleClose }) {
             onClick={(e) => {
               handleClose(e);
             }}
-            className="li-small hover:text-coral-red hover:cursor-pointer"
+            className="li-small  hover:cursor-pointer"
           >
             <a href="/#Projects">Projects</a>
           </li>
@@ -183,13 +172,13 @@ function Hamburger({ isMenuOpen, handleClose }) {
             onClick={(e) => {
               handleClose(e);
             }}
-            className="li-small hover:text-coral-red hover:cursor-pointer"
+            className="li-small  hover:cursor-pointer"
           >
             Certifications
           </li>
-          <li className="li-small hover:text-coral-red hover:cursor-pointer">
+          <li className="li-small  hover:cursor-pointer">
             <button
-              className="bg-coral-red px-8 py-3 text-white
+              className=" px-8 py-3 text-white
          text-lg font-semibold rounded-lg active:translate-y-0.5
          hover:shadow-slate-300 hover:shadow-3xl "
             >
