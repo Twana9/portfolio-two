@@ -1,4 +1,5 @@
 import { unit, reactor, lab3a, industry } from "../Constants/semester5";
+import { motion } from "framer-motion";
 import Moon from "../../public/moon3.webp";
 import "./stage3.css";
 export default function Stage3() {
@@ -8,21 +9,29 @@ export default function Stage3() {
         className="h-screen flex justify-center items-center
       xl:gap-[90px] lg:gap-[30px] max-md:flex-col max-md:gap-[150px]"
       >
-        <p
+        <motion.p
+          initial={{ y: "-100px", opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, ease: "easeInOut" }}
           className="font-bold text-gray-800 font-palanquin pl-8
         xl:text-3xl lg:text-2xl md:text-xl max-sm:text-center
         max-sm:pl-0"
         >
           An Important Collection for Stage Three students
-        </p>
-        <div className="mt-[-40px]">
+        </motion.p>
+        <motion.div
+          initial={{ scale: 0.05, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ duration: 1.5, ease: "easeIn" }}
+          className="mt-[-40px]"
+        >
           <img
             src={Moon}
             alt=""
             className="xl:h-[750px] lg:h-[500px] md:h-[450px]
           animate-spinSlow object-contain max-md:h-[450px]"
           />
-        </div>
+        </motion.div>
       </div>
       {/* ///////PDF///////// */}
       <h1

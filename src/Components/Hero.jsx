@@ -1,4 +1,5 @@
 import Profile from "../../public/profile.jpg";
+import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <div
@@ -12,20 +13,40 @@ export default function Hero() {
         className="md:w-1/2 text-center md:text-left lg:space-y-4
       space-y-8"
       >
-        <p className="text-gray-600 text-2xl">Hi, I'm Twana</p>
-        <h1
+        <motion.p
+          initial={{ y: "-100px", opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, ease: "easeIn" }}
+          className="text-gray-600 text-2xl"
+        >
+          Hi, I'm Twana
+        </motion.p>
+        <motion.h1
+          animate={{ x: 0, opacity: 1 }}
+          initial={{ x: "-100px", opacity: 0 }}
+          transition={{ duration: 0.8, ease: "easeIn" }}
           className="text-3xl lg:text-4xl font-bold text-gray-800
         md:text-[38px]"
         >
           A Chemical Engineering Student
-        </h1>
-        <p className="text-gray-600 text-base md:text-2xl">
+        </motion.h1>
+        <motion.p
+          initial={{ y: "100px", opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, ease: "easeIn" }}
+          className="text-gray-600 text-base md:text-2xl"
+        >
           Stage Three student at Koya University
-        </p>
+        </motion.p>
       </div>
 
       {/* Right Section */}
-      <div className="mt-6 md:mt-0 md:w-1/2 flex justify-center">
+      <motion.div
+        initial={{ scale: 0.3, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 0.8, ease: "easeIn" }}
+        className="mt-6 md:mt-0 md:w-1/2 flex justify-center"
+      >
         <img
           src={Profile}
           alt="Profile"
@@ -33,7 +54,7 @@ export default function Hero() {
           sm:w-[300px] sm:h-[300px]
           rounded-3xl object-cover shadow-lg"
         />
-      </div>
+      </motion.div>
     </div>
   );
 }
