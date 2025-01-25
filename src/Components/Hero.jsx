@@ -14,26 +14,26 @@ export default function Hero() {
       space-y-8"
       >
         <motion.p
-          initial={{ y: "-100px", opacity: 0 }}
+          initial={{ y: "-160px", opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.6, ease: "easeIn" }}
+          transition={{ duration: 1.2, ease: "easeInOut" }}
           className="text-gray-600 text-2xl"
         >
           Hi, I'm Twana
         </motion.p>
         <motion.h1
-          animate={{ x: 0, opacity: 1 }}
-          initial={{ x: "-100px", opacity: 0 }}
-          transition={{ duration: 0.8, ease: "easeIn" }}
+          initial={{ y: "-140px", opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1, ease: "easeInOut" }}
           className="text-3xl lg:text-4xl font-bold text-gray-800
         md:text-[38px]"
         >
           A Chemical Engineering Student
         </motion.h1>
         <motion.p
-          initial={{ y: "100px", opacity: 0 }}
+          initial={{ y: "-120px", opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.6, ease: "easeIn" }}
+          transition={{ duration: 0.8, ease: "easeInOut" }}
           className="text-gray-600 text-base md:text-2xl"
         >
           Stage Three student at Koya University
@@ -42,7 +42,7 @@ export default function Hero() {
 
       {/* Right Section */}
       <motion.div
-        initial={{ scale: 0.3, opacity: 0 }}
+        initial={{ scale: 0.5, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.8, ease: "easeIn" }}
         className="mt-6 md:mt-0 md:w-1/2 flex justify-center"

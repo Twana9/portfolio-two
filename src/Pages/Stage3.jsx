@@ -12,7 +12,7 @@ export default function Stage3() {
         <motion.p
           initial={{ y: "-100px", opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.5, ease: "easeInOut" }}
+          transition={{ duration: 0.7, ease: "easeInOut" }}
           className="font-bold text-gray-800 font-palanquin pl-8
         xl:text-3xl lg:text-2xl md:text-xl max-sm:text-center
         max-sm:pl-0"
@@ -20,9 +20,9 @@ export default function Stage3() {
           An Important Collection for Stage Three students
         </motion.p>
         <motion.div
-          initial={{ scale: 0.05, opacity: 0 }}
+          initial={{ scale: 0.05, opacity: 0.3 }}
           animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 1.5, ease: "easeIn" }}
+          transition={{ duration: 1.1, ease: "easeIn" }}
           className="mt-[-40px]"
         >
           <img
@@ -34,14 +34,24 @@ export default function Stage3() {
         </motion.div>
       </div>
       {/* ///////PDF///////// */}
-      <h1
+      <motion.h1
+        initial={{ x: "200px", opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
         className="text-3xl font-palanquin text-slate-700 md:text-4xl mb-6
       font-semibold  mt-10 scroll-m-16 w-full text-center"
       >
         Unit Operation
-      </h1>
+      </motion.h1>
 
-      <div className="flex flex-col justify-center items-center p-9 w-full gap-5">
+      <motion.div
+        initial={{ x: "200px", opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
+        className="flex flex-col justify-center items-center p-9 w-full gap-5"
+      >
         <button
           class=" text-xl w-[50%] px-5 rounded-xl
          bg-purple-500 h-[60px] text-white font-bold 
@@ -185,17 +195,27 @@ export default function Stage3() {
             </div>
           </a>
         </button>
-      </div>
+      </motion.div>
 
       {/* /////////reactor////////////// */}
-      <h1
+      <motion.h1
+        initial={{ x: "200px", opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
         className="text-3xl font-palanquin text-slate-700 md:text-4xl mb-6
       font-semibold  mt-10 scroll-m-16 w-full text-center"
       >
         Reactor Design
-      </h1>
+      </motion.h1>
 
-      <div className="flex flex-col justify-center items-center p-9 w-full gap-5">
+      <motion.div
+        initial={{ x: "200px", opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
+        className="flex flex-col justify-center items-center p-9 w-full gap-5"
+      >
         <button
           class=" text-xl w-[50%]  px-5 rounded-xl
          bg-purple-500 h-[60px] text-white font-bold 
@@ -268,16 +288,26 @@ export default function Stage3() {
             </div>
           </a>
         </button>
-      </div>
+      </motion.div>
       {/* ////////////Lab-3//////////// */}
-      <h1
+      <motion.h1
+        initial={{ x: "200px", opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
         className="text-3xl font-palanquin text-slate-700 md:text-4xl mb-6
       font-semibold  mt-10 scroll-m-16 w-full text-center"
       >
         Lab-3
-      </h1>
+      </motion.h1>
 
-      <div className="flex flex-col justify-center items-center p-9 w-full gap-5">
+      <motion.div
+        initial={{ x: "200px", opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
+        className="flex flex-col justify-center items-center p-9 w-full gap-5"
+      >
         <button
           class=" text-xl w-[50%] px-5 rounded-xl
          bg-purple-500 h-[60px] text-white font-bold 
@@ -374,16 +404,26 @@ export default function Stage3() {
             </div>
           </a>
         </button>
-      </div>
+      </motion.div>
       {/* ////////////industry///////////// */}
-      <h1
+      <motion.h1
+        initial={{ x: "200px", opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
         className="text-3xl font-palanquin text-slate-700 md:text-4xl mb-6
       font-semibold  mt-10 scroll-m-16 w-full text-center"
       >
         Chemical Industries
-      </h1>
+      </motion.h1>
 
-      <div className="flex flex-col justify-center items-center p-9 w-full gap-5">
+      <motion.div
+        initial={{ x: "200px", opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
+        className="flex flex-col justify-center items-center p-9 w-full gap-5"
+      >
         <button
           class=" text-xl w-[50%] px-5 rounded-xl
          bg-purple-500 h-[60px] text-white font-bold 
@@ -408,7 +448,7 @@ export default function Stage3() {
             </div>
           </a>
         </button>
-      </div>
+      </motion.div>
     </div>
   );
 }

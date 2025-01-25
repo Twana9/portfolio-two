@@ -16,42 +16,48 @@ export default function Projects() {
       >
         <motion.div
           initial={{ scale: 0.7, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
+          whileInView={{ scale: 1, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{ duration: 0.7, ease: "easeInOut" }}
           className="bg-red-50 border border-red-300 h-[250px]
   w-[290px] rounded-xl border-b-4"
         ></motion.div>
         <motion.div
           initial={{ scale: 0.7, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
+          whileInView={{ scale: 1, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{ duration: 0.7, ease: "easeInOut" }}
           className="bg-red-50 border border-red-300 h-[250px]
   w-[290px] rounded-xl border-b-4"
         ></motion.div>
         <motion.div
           initial={{ scale: 0.7, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
+          whileInView={{ scale: 1, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{ duration: 0.7, ease: "easeInOut" }}
           className="bg-red-50 border border-red-300 h-[250px]
   w-[290px] rounded-xl border-b-4"
         ></motion.div>
         <motion.div
           initial={{ scale: 0.7, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
+          whileInView={{ scale: 1, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{ duration: 0.7, ease: "easeInOut" }}
           className="bg-red-50 border border-red-300 h-[250px]
   w-[290px] rounded-xl border-b-4"
         ></motion.div>
         <motion.div
           initial={{ scale: 0.7, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
+          whileInView={{ scale: 1, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{ duration: 0.7, ease: "easeInOut" }}
           className="bg-red-50 border border-red-300 h-[250px]
   w-[290px] rounded-xl border-b-4"
         ></motion.div>
         <motion.div
           initial={{ scale: 0.7, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
+          whileInView={{ scale: 1, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{ duration: 0.7, ease: "easeInOut" }}
           className="bg-red-50 border border-red-300 h-[250px]
   w-[290px] rounded-xl border-b-4"

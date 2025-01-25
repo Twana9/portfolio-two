@@ -31,7 +31,7 @@ export default function Footer() {
           <img
             src={Gmail}
             alt=""
-            className="w-[50px] h-[50px]  transform duration-200 hover:scale-125   cursor-pointer  rounded-full"
+            className="min-w-[50px] h-[50px]  transform duration-200 hover:scale-125   cursor-pointer  rounded-full"
           />
         </a>
         <img

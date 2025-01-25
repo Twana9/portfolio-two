@@ -93,6 +93,7 @@ export default function Nav() {
       </ul>
       <div>
         <button
+          onClick={() => alert("only Twana has access to servers")}
           className="btnii px-8 py-3 text-white
          text-lg font-semibold rounded-lg active:translate-y-0.5
          hover:shadow-slate-300 hover:shadow-3xl max-lg:hidden"
@@ -178,6 +179,7 @@ function Hamburger({ isMenuOpen, handleClose }) {
           </li>
           <li className="li-small  hover:cursor-pointer">
             <button
+              onClick={() => alert("only Twana has access to servers")}
               className=" px-8 py-3 text-white
          text-lg font-semibold rounded-lg active:translate-y-0.5
          hover:shadow-slate-300 hover:shadow-3xl "
