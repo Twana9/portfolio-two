@@ -38,10 +38,14 @@ export default function Skills() {
           className="bg-green-50 border border-green-200 h-[250px]
       w-[290px] rounded-xl border-b-4"
         ></motion.div>
-        <div
+        <motion.div
+          initial={{ x: "200px", opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7, ease: "easeInOut" }}
           className="bg-green-50 border border-green-200 h-[250px]
       w-[290px] rounded-xl border-b-4"
-        ></div>
+        ></motion.div>
         <motion.div
           initial={{ x: "200px", opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
