@@ -6,6 +6,8 @@ import {
   UnitQuestions,
   Sa7dan,
   Sheet1,
+  Sheet2,
+  Sheet3,
   Sheet4,
   ReactorQuestions,
   Heat1,
@@ -29,6 +31,8 @@ const reactor = {
   id: 2,
   name: "reactor",
   Sheet1: Sheet1,
+  Sheet2: Sheet2,
+  Sheet3: Sheet3,
   Sheet4: Sheet4,
   ReactorQuestions: ReactorQuestions,
 };

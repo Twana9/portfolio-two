@@ -7,6 +7,8 @@ import Report from "./control system in distillation towers-report.pdf";
 
 ////Reactor////////////////////////////////////////
 import Sheet1 from "./Sheet 1 answers.pdf";
+import Sheet2 from "./sheet2.pdf";
+import Sheet3 from "./sheet3.pdf";
 import Sheet4 from "./Sheet 4 answers.pdf";
 import ReactorQuestions from "./Reactor questions.pdf";
 
@@ -27,6 +29,8 @@ export {
   UnitQuestions,
   Sa7dan,
   Sheet1,
+  Sheet2,
+  Sheet3,
   Sheet4,
   ReactorQuestions,
   Heat1,

@@ -28,7 +28,7 @@ export default function Stage3() {
           <img
             src={Moon}
             alt=""
-            className="xl:h-[750px] lg:h-[500px] md:h-[450px]
+            className="xl:h-[700px] lg:h-[480px] md:h-[450px]
           animate-spinSlow object-contain max-md:h-[450px]"
           />
         </motion.div>
@@ -227,6 +227,54 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Sheet-1 answers
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                class="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span class="icon2"></span>
+            </div>
+          </a>
+        </button>
+        <button
+          class=" text-xl w-[50%]  px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a
+            href={reactor.Sheet2}
+            download={reactor.Sheet2}
+            className="flex justify-between items-center"
+          >
+            Sheet-2 answers
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                class="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span class="icon2"></span>
+            </div>
+          </a>
+        </button>
+        <button
+          class=" text-xl w-[50%]  px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a
+            href={reactor.Sheet3}
+            download={reactor.Sheet3}
+            className="flex justify-between items-center"
+          >
+            Sheet-3 answers
             <div className="flex flex-col justify-center items-center">
               <svg
                 class="svgIcon"
