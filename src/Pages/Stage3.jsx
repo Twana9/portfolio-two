@@ -100,7 +100,7 @@ export default function Stage3() {
             </div>
           </a>
         </button>
-        <button
+        {/* <button
           className=" text-xl w-[50%] px-5 rounded-xl
          bg-purple-500 h-[60px] text-white font-bold 
          max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
@@ -123,7 +123,7 @@ export default function Stage3() {
               <span className="icon2"></span>
             </div>
           </a>
-        </button>
+        </button> */}
         <button
           className=" text-xl w-[50%] max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%] px-5 rounded-xl
          bg-purple-500 h-[60px] text-white font-bold "

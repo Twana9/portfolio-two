@@ -25,7 +25,6 @@ import IndustryQuestions from "./questions.pdf";
 export {
   Absorption,
   Diffusion,
-  Extraction,
   Report,
   UnitQuestions,
   Sa7dan,
