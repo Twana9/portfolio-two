@@ -5,7 +5,7 @@ export default function Hero() {
     <div
       className="flex flex-col md:flex-row items-center lg:justify-between
      p-6 bg-gray-50 sm:min-h-screen gap-[150px] max-sm:gap-[100px]
-     max-sm:h-[70vh]
+     max-sm:h-[85vh]
      "
     >
       {/* Left Section */}
