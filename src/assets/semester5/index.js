@@ -1,9 +1,10 @@
 import Absorption from "./Absorptionn.pdf";
 import Diffusion from "./diffusion.pdf";
-import Extraction from "./Extraction.pdf";
+import Extraction from "./extraction.pdf";
 import Sa7dan from "./sa7dan.pdf";
 import UnitQuestions from "./UnitQuestions.pdf";
 import Report from "./control system in distillation towers-report.pdf";
+import UnitXuli2 from "./unitXuli2.pdf";
 
 ////Reactor////////////////////////////////////////
 import Sheet1 from "./Sheet 1 answers.pdf";
@@ -28,6 +29,7 @@ export {
   Report,
   UnitQuestions,
   Sa7dan,
+  UnitXuli2,
   Sheet1,
   Sheet2,
   Sheet3,

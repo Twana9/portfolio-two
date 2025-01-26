@@ -44,7 +44,7 @@ export default function Nav() {
     >
       <div
         onClick={() => top()}
-        className="flex justify-between items-center w-[220px]
+        className="flex justify-between items-center w-[210px]
       max-md:gap-2 cursor-pointer max-xl:w-[150px] max-sm:w-[55px] max-sm:gap-0.5"
       >
         <Link
@@ -62,8 +62,8 @@ export default function Nav() {
           />
         </Link>
         <p
-          className="font-palanquin pone text-[35px]
-        font-bold max-xl:text-[27px] max-sm:text-[20px]
+          className="font-montserrat pone text-[30px]
+        font-bold max-xl:text-[24px] max-sm:text-[18px]
         "
         >
           Twana99
@@ -72,8 +72,8 @@ export default function Nav() {
 
       {/* ///////nav/////// */}
       <ul
-        className="flex justify-center items-center gap-20 
-      font-palanquin font-semibold text-lg text-gray-700 
+        className="flex justify-center items-center gap-16 
+      font-palanquin font-semibold text-[17px] text-gray-700 
         max-xl:gap-14 max-lg:hidden
        "
       >
@@ -94,8 +94,8 @@ export default function Nav() {
       <div>
         <button
           onClick={() => alert("only Twana has access to servers")}
-          className="btnii px-8 py-3 text-white
-         text-lg font-semibold rounded-lg active:translate-y-0.5
+          className="btnii px-6 py-2 text-white
+         text-[16px] font-semibold rounded-lg active:translate-y-0.5
          hover:shadow-slate-300 hover:shadow-3xl max-lg:hidden"
         >
           LOGIN

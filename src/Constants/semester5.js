@@ -5,6 +5,7 @@ import {
   Report,
   UnitQuestions,
   Sa7dan,
+  UnitXuli2,
   Sheet1,
   Sheet2,
   Sheet3,
@@ -26,6 +27,7 @@ const unit = {
   Report: Report,
   UnitQuestions,
   Sa7dan: Sa7dan,
+  UnitXuli2: UnitXuli2,
 };
 const reactor = {
   id: 2,
