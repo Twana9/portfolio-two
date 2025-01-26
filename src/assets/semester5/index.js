@@ -1,6 +1,6 @@
 import Absorption from "./Absorptionn.pdf";
 import Diffusion from "./diffusion.pdf";
-// import Extraction from "./extraction.pdf";
+import Liquid from "./liquid.pdf";
 import Sa7dan from "./sa7dan.pdf";
 import UnitQuestions from "./UnitQuestions.pdf";
 import Report from "./control system in distillation towers-report.pdf";
@@ -25,6 +25,7 @@ import IndustryQuestions from "./questions.pdf";
 export {
   Absorption,
   Diffusion,
+  Liquid,
   Report,
   UnitQuestions,
   Sa7dan,

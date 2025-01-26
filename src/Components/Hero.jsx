@@ -25,7 +25,7 @@ export default function Hero() {
           initial={{ y: "-140px", opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="text-2xl lg:text-4xl font-bold text-gray-800
+          className="text-3xl lg:text-4xl font-bold text-gray-800
         md:text-[38px] md:leading-10"
         >
           A{" "}

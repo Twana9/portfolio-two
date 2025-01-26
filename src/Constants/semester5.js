@@ -1,6 +1,7 @@
 import {
   Absorption,
   Diffusion,
+  Liquid,
   Report,
   UnitQuestions,
   Sa7dan,
@@ -22,7 +23,7 @@ const unit = {
   name: "unit",
   Absorption: Absorption,
   Diffusion: Diffusion,
-
+  Liquid: Liquid,
   Report: Report,
   UnitQuestions,
   Sa7dan: Sa7dan,
