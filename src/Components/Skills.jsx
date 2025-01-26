@@ -5,7 +5,7 @@ export default function Skills() {
       <h1
         id="Skills"
         className=" text-3xl font-palanquin text-slate-700
-      font-semibold ml-10 mt-10 scroll-m-16
+      font-semibold ml-10 max-sm:ml-7 my-10 scroll-m-16
       max-sm:text-2xl"
       >
         Skills

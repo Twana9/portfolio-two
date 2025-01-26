@@ -17,3 +17,8 @@ a {
 button {
   background-color: rgb(141, 83, 248);
 }
+.bg-purple {
+  background: linear-gradient(to right, rgb(198, 59, 233), rgb(141, 83, 248));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

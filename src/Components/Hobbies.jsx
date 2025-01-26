@@ -5,7 +5,7 @@ export default function Hobbies() {
     <>
       <h1
         className="text-3xl font-palanquin text-slate-700
-      font-semibold ml-10 mt-10 scroll-m-16 max-sm:text-2xl"
+      font-semibold ml-10 max-sm:ml-7 mt-10 scroll-m-16 max-sm:text-2xl"
       >
         Hobbies
       </h1>

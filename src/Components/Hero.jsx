@@ -4,8 +4,8 @@ export default function Hero() {
   return (
     <div
       className="flex flex-col md:flex-row items-center lg:justify-between
-     p-6 bg-gray-50 min-h-screen gap-[150px]
-     
+     p-6 bg-gray-50 sm:min-h-screen gap-[150px] max-sm:gap-[100px]
+     max-sm:h-[70vh]
      "
     >
       {/* Left Section */}
@@ -17,7 +17,7 @@ export default function Hero() {
           initial={{ y: "-160px", opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1.2, ease: "easeInOut" }}
-          className="text-gray-600 text-2xl"
+          className="text-gray-600 text-lg max-sm:text-sm"
         >
           Hi, I'm Twana
         </motion.p>
@@ -25,16 +25,21 @@ export default function Hero() {
           initial={{ y: "-140px", opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="text-3xl lg:text-4xl font-bold text-gray-800
-        md:text-[38px]"
+          className="text-2xl lg:text-4xl font-bold text-gray-800
+        md:text-[38px] md:leading-10"
         >
-          A Chemical Engineering Student
+          A{" "}
+          <span className="bg-purple whitespace-nowrap">
+            Chemical Engineering
+          </span>{" "}
+          Student
         </motion.h1>
         <motion.p
           initial={{ y: "-120px", opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, ease: "easeInOut" }}
-          className="text-gray-600 text-base md:text-2xl"
+          className="text-gray-600 text-base md:text-xl max-sm:text-sm
+          "
         >
           Stage Three student at Koya University
         </motion.p>

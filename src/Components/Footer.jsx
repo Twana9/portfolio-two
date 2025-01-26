@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div
       className="flex justify-center items-center w-full flex-col
-     bg-slate-50 gap-7 py-10"
+     bg-slate-50 gap-6 py-8"
     >
       <Link to="/">
         <img
@@ -13,11 +13,12 @@ export default function Footer() {
           src={Profile}
           alt=""
           className="w-[100px] h-[100px] rounded-full mt-10
-        cursor-pointer transform duration-200 hover:scale-110"
+        cursor-pointer transform duration-200 hover:scale-110
+        max-md:w-[80px] max-md:h-[80px]"
         />
       </Link>
 
-      <hr className="h-[4px] w-[50%] bg-slate-300 rounded-full max-sm:w-[70%]" />
+      <hr className="h-[2px] w-[50%] bg-slate-300 rounded-full max-sm:w-[70%]" />
       <div
         className="flex justify-center items-center gap-16 w-[60%] 
       max-sm:gap-5 pb-6"
@@ -25,22 +26,25 @@ export default function Footer() {
         <img
           src={Facebook}
           alt=""
-          className="w-[50px] h-[50px] transform duration-200 hover:scale-125   cursor-pointer"
+          className="w-[50px] h-[50px] transform duration-200 hover:scale-125   cursor-pointer
+          max-md:w-[30px] max-md:h-[30px]"
         />
         <a href="mailto:twana.00569020@gmail.com">
           <img
             src={Gmail}
             alt=""
-            className="min-w-[50px] h-[50px]  transform duration-200 hover:scale-125   cursor-pointer  rounded-full"
+            className="min-w-[50px] h-[50px]  transform duration-200 hover:scale-125   cursor-pointer  rounded-full
+            max-md:min-w-[30px] max-md:h-[30px]"
           />
         </a>
         <img
           src={Telegram}
           alt=""
-          className="w-[50px] h-[50px] transform duration-200 hover:scale-125  cursor-pointer"
+          className="w-[50px] h-[50px] transform duration-200 hover:scale-125  cursor-pointer
+          max-md:w-[30px] max-md:h-[30px]"
         />
       </div>
-      <p className="text-xl font-sans pb-10"> Developed by Astepor Co. </p>
+      <p className="text-[16px] font-sans pb-10"> Developed by Astepor Co. </p>
     </div>
   );
 }
