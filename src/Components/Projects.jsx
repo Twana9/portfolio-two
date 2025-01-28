@@ -21,7 +21,7 @@ export default function Projects() {
           whileInView={{ scale: 1, opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7, ease: "easeInOut" }}
-          className="bg-white border-[0.1px] border-purple-400 h-[290px]
+          className="bg-white border-[0.1px] border-purple-300 h-[290px]
   w-[290px] rounded-xl border-b-4 shadow-lg
   flex flex-col overflow-hidden cursor-pointer
   "
@@ -41,11 +41,11 @@ export default function Projects() {
           </div>
           <h3
             className="text-start ml-[5%] font-palanquin
-           text-slate-700 mt-2 font-semibold"
+           text-slate-700 mt-4 font-semibold"
           >
             Refinery plant
           </h3>
-          <p className="text-gray-500  ml-[5%] text-sm mt-2">
+          <p className="text-gray-500  ml-[5%] text-sm mt-3">
             a fake example of a project
           </p>
         </motion.div>
@@ -54,7 +54,7 @@ export default function Projects() {
           whileInView={{ scale: 1, opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7, ease: "easeInOut" }}
-          className="bg-white border-[0.1px] border-purple-400 h-[290px]
+          className="bg-white border-[0.1px] border-purple-300 h-[290px]
   w-[290px] rounded-xl border-b-4 shadow-lg
   flex flex-col overflow-hidden cursor-pointer"
         ></motion.div>
@@ -63,7 +63,7 @@ export default function Projects() {
           whileInView={{ scale: 1, opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7, ease: "easeInOut" }}
-          className="bg-white border-[0.1px] border-purple-400 h-[290px]
+          className="bg-white border-[0.1px] border-purple-300 h-[290px]
   w-[290px] rounded-xl border-b-4 shadow-lg
   flex flex-col overflow-hidden cursor-pointer"
         ></motion.div>
@@ -72,7 +72,7 @@ export default function Projects() {
           whileInView={{ scale: 1, opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7, ease: "easeInOut" }}
-          className="bg-white border-[0.1px] border-purple-400 h-[290px]
+          className="bg-white border-[0.1px] border-purple-300 h-[290px]
   w-[290px] rounded-xl border-b-4 shadow-lg
   flex flex-col overflow-hidden cursor-pointer"
         ></motion.div>
