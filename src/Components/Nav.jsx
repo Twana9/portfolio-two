@@ -89,7 +89,9 @@ export default function Nav() {
         <li className=" hover:cursor-pointer">
           <a href="/#Projects">Projects</a>
         </li>
-        <li className=" hover:cursor-pointer">Certifications</li>
+        <li className=" hover:cursor-pointer">
+          <Link to="/certifications">Certifications</Link>
+        </li>
       </ul>
       <div>
         <button
@@ -172,10 +174,11 @@ function Hamburger({ isMenuOpen, handleClose }) {
           <li
             onClick={(e) => {
               handleClose(e);
+              scrollTo(0, 0);
             }}
             className="li-small  hover:cursor-pointer"
           >
-            Certifications
+            <Link to="/certifications">Certifications</Link>
           </li>
           <li className="li-small  hover:cursor-pointer">
             <button
