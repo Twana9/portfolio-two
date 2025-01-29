@@ -1,4 +1,5 @@
 import Cert from "../assets/certification.jpg";
+import { motion } from "framer-motion";
 export default function Certification() {
   return (
     <div
@@ -12,27 +13,39 @@ export default function Certification() {
  xl:w-[1060px]  md:w-[700px]
  place-self-center"
     >
-      <div
+      <motion.div
+        initial={{ scale: 0.7 }}
+        whileInView={{ scale: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeInOut" }}
         className="w-[340px] h-[241px] border-[0.1px]
         rounded-md border-pink-400 shadow-md
       border-b-4 bg-white overflow-hidden"
       >
         <img src={Cert} alt="" className="" />
-      </div>
-      <div
+      </motion.div>
+      <motion.div
+        initial={{ scale: 0.7 }}
+        whileInView={{ scale: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeInOut" }}
         className="w-[340px] h-[241px] border-[0.1px]
         rounded-md border-pink-400 shadow-md
       border-b-4 bg-white overflow-hidden"
       >
         <img src={Cert} alt="" className="" />
-      </div>
-      <div
+      </motion.div>
+      <motion.div
+        initial={{ scale: 0.7 }}
+        whileInView={{ scale: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeInOut" }}
         className="w-[340px] h-[241px] border-[0.1px]
         rounded-md border-pink-400 shadow-md
       border-b-4 bg-white overflow-hidden"
       >
         <img src={Cert} alt="" className="" />
-      </div>
+      </motion.div>
     </div>
   );
 }

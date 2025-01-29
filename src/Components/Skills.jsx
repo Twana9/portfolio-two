@@ -33,7 +33,7 @@ export default function Skills() {
           <p className="text-gray-500  mx-[5%] text-sm mt-5 ">
             basic understanding of metabolism and bodybuilding, i can write my
             own course, i did 3 years of training and 5 months of hard training
-            before, so learn somthing
+            before, so i learned something
           </p>
         </motion.div>
         <motion.div
