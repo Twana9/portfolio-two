@@ -23,26 +23,33 @@ export default function Footer() {
         className="flex justify-center items-center gap-16 w-[60%] 
       max-sm:gap-5 pb-6"
       >
-        <img
-          src={Facebook}
-          alt=""
-          className="w-[50px] h-[50px] transform duration-200 hover:scale-125   cursor-pointer
-          max-md:w-[30px] max-md:h-[30px]"
-        />
+        <a
+          href="https://www.facebook.com/profile.php?id=100081314005668"
+          target="_blank"
+        >
+          <img
+            src={Facebook}
+            alt=""
+            className="w-[50px] h-[50px] transform duration-200 hover:scale-125   cursor-pointer
+          max-md:w-[35px] max-md:h-[35px]"
+          />
+        </a>
         <a href="mailto:twana.00569020@gmail.com">
           <img
             src={Gmail}
             alt=""
             className="min-w-[50px] h-[50px]  transform duration-200 hover:scale-125   cursor-pointer  rounded-full
-            max-md:min-w-[30px] max-md:h-[30px]"
+            max-md:min-w-[35px] max-md:h-[35px]"
           />
         </a>
-        <img
-          src={Telegram}
-          alt=""
-          className="w-[50px] h-[50px] transform duration-200 hover:scale-125  cursor-pointer
-          max-md:w-[30px] max-md:h-[30px]"
-        />
+        <a href="https://t.me/+9647507062468" target="_blank">
+          <img
+            src={Telegram}
+            alt=""
+            className="w-[50px] h-[50px] transform duration-200 hover:scale-125  cursor-pointer
+          max-md:w-[35px] max-md:h-[35px]"
+          />
+        </a>
       </div>
       <p className="text-[16px] font-sans pb-10"> Developed by Astepor Co. </p>
     </div>

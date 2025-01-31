@@ -16,11 +16,11 @@ export default function Hobbies() {
       >
         {hobbies.map((hobby) => (
           <motion.div
-            initial={{ scale: 0.9, opacity: 0 }}
+            initial={{ scale: 0.8, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
             viewport={{ once: true }}
             whileHover={{ translateY: "-10px" }}
-            transition={{ duration: 0.7, ease: "easeInOut" }}
+            transition={{ duration: 0.6, ease: "easeInOut" }}
             key={hobby.id}
             className="flex justify-between items-center 
             border-[0.1px] border-purple-200 py-3 px-2.5 rounded-2xl
