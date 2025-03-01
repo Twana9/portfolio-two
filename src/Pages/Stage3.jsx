@@ -59,7 +59,6 @@ export default function Stage3() {
         >
           <a
             href={unit.Absorption}
-            download={unit.Absorption}
             className="flex justify-between items-center"
           >
             Absorption Sheet
@@ -83,7 +82,6 @@ export default function Stage3() {
         >
           <a
             href={unit.Diffusion}
-            download={unit.Diffusion}
             className="flex justify-between items-center"
           >
             Diffusion Sheet
@@ -105,11 +103,7 @@ export default function Stage3() {
          bg-purple-500 h-[60px] text-white font-bold 
          max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
         >
-          <a
-            href={unit.Liquid}
-            download={unit.Liquid}
-            className="flex justify-between items-center"
-          >
+          <a href={unit.Liquid} className="flex justify-between items-center">
             Extraction Sheet
             <div className="flex flex-col justify-center items-center">
               <svg
@@ -128,11 +122,7 @@ export default function Stage3() {
           className=" text-xl w-[50%] max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%] px-5 rounded-xl
          bg-purple-500 h-[60px] text-white font-bold "
         >
-          <a
-            href={unit.Report}
-            download={unit.Report}
-            className="flex justify-between items-center"
-          >
+          <a href={unit.Report} className="flex justify-between items-center">
             The Report which got the best mark 6/6.5
             <div className="flex flex-col justify-center items-center">
               <svg
@@ -154,7 +144,6 @@ export default function Stage3() {
         >
           <a
             href={unit.UnitQuestions}
-            download={unit.UnitQuestions}
             className="flex justify-between items-center"
           >
             Final & Midterm Questions
@@ -176,11 +165,7 @@ export default function Stage3() {
          bg-purple-500 h-[60px] text-white font-bold 
          max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
         >
-          <a
-            href={unit.Sa7dan}
-            download={unit.Sa7dan}
-            className="flex justify-between items-center"
-          >
+          <a href={unit.Sa7dan} className="flex justify-between items-center">
             Politics of Sa7dan
             <div className="flex flex-col justify-center items-center">
               <svg
@@ -202,7 +187,6 @@ export default function Stage3() {
         >
           <a
             href={unit.UnitXuli2}
-            download={unit.UnitXuli2}
             className="flex justify-between items-center"
           >
             Final xuli 2 (2024 - 2025)
@@ -247,7 +231,6 @@ export default function Stage3() {
         >
           <a
             href={reactor.Sheet1}
-            download={reactor.Sheet1}
             className="flex justify-between items-center"
           >
             Sheet-1 answers
@@ -271,7 +254,6 @@ export default function Stage3() {
         >
           <a
             href={reactor.Sheet2}
-            download={reactor.Sheet2}
             className="flex justify-between items-center"
           >
             Sheet-2 answers
@@ -295,7 +277,6 @@ export default function Stage3() {
         >
           <a
             href={reactor.Sheet3}
-            download={reactor.Sheet3}
             className="flex justify-between items-center"
           >
             Sheet-3 answers
@@ -319,7 +300,6 @@ export default function Stage3() {
         >
           <a
             href={reactor.Sheet4}
-            download={reactor.Sheet4}
             className="flex justify-between items-center"
           >
             Sheet-4 answers
@@ -343,7 +323,6 @@ export default function Stage3() {
         >
           <a
             href={reactor.ReactorQuestions}
-            download={reactor.ReactorQuestions}
             className="flex justify-between items-center"
           >
             Final & Midterm Questions + Sa7dan
@@ -385,11 +364,7 @@ export default function Stage3() {
          bg-purple-500 h-[60px] text-white font-bold 
          max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
         >
-          <a
-            href={lab3a.Heat1}
-            download={lab3a.Heat1}
-            className="flex justify-between items-center"
-          >
+          <a href={lab3a.Heat1} className="flex justify-between items-center">
             Double Pipe Heat exchanger
             <div className="flex flex-col justify-center items-center">
               <svg
@@ -409,11 +384,7 @@ export default function Stage3() {
          bg-purple-500 h-[60px] text-white font-bold 
          max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
         >
-          <a
-            href={lab3a.Service}
-            download={lab3a.Service}
-            className="flex justify-between items-center"
-          >
+          <a href={lab3a.Service} className="flex justify-between items-center">
             Service unit & Control interface
             <div className="flex flex-col justify-center items-center">
               <svg
@@ -435,7 +406,6 @@ export default function Stage3() {
         >
           <a
             href={lab3a.Solutions}
-            download={lab3a.Solutions}
             className="flex justify-between items-center"
           >
             Preparing of Solutions
@@ -459,7 +429,6 @@ export default function Stage3() {
         >
           <a
             href={lab3a.BatchReactor}
-            download={lab3a.BatchReactor}
             className="flex justify-between items-center"
           >
             Batch Reactor
@@ -503,7 +472,6 @@ export default function Stage3() {
         >
           <a
             href={industry.IndustryQuestions}
-            download={industry.IndustryQuestions}
             className="flex justify-between items-center"
           >
             Final & Midterm Questions
