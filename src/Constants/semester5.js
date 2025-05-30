@@ -16,6 +16,9 @@ import {
   Solutions,
   BatchReactor,
   IndustryQuestions,
+  Heat2025Q,
+  HeatMarks,
+  HeatSa7dan,
 } from "../assets/semester5";
 
 const unit = {
@@ -51,4 +54,11 @@ const industry = {
   name: "industry",
   IndustryQuestions: IndustryQuestions,
 };
-export { unit, reactor, lab3a, industry };
+const heat = {
+  id: 5,
+  name: "heat",
+  Heat2025Q: Heat2025Q,
+  HeatMarks: HeatMarks,
+  HeatSa7dan,
+};
+export { unit, reactor, lab3a, industry, heat };

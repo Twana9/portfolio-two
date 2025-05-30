@@ -22,6 +22,14 @@ import BatchReactor from "./batch reactor.pdf";
 //////industry/////////////////////////////////////
 import IndustryQuestions from "./questions.pdf";
 
+////////Ervironmnet//////////////////////////////////
+
+////////Heat Transfer///////////////////////////////
+import Heat2025Q from "./heat-2025-questions.pdf";
+import HeatMarks from "./heat-marks.pdf";
+import HeatSa7dan from "./Heat-sa7dan.pdf";
+// import HeatPP from "./heat-pp.pptx";
+
 export {
   Absorption,
   Diffusion,
@@ -40,4 +48,7 @@ export {
   Solutions,
   BatchReactor,
   IndustryQuestions,
+  Heat2025Q,
+  HeatMarks,
+  HeatSa7dan,
 };
