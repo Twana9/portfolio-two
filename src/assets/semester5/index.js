@@ -30,6 +30,16 @@ import HeatMarks from "./heat-marks.pdf";
 import HeatSa7dan from "./Heat-sa7dan.pdf";
 // import HeatPP from "./heat-pp.pptx";
 
+////////Mathmatical Modelling//////////////////////
+import ModelL1 from "./modelL1.pdf";
+import ModelL2 from "./modelL2.pdf";
+import ModelL3 from "./modelL3.pdf";
+import ModelL4 from "./modelL4.pdf";
+import ModelMarks from "./modelMarks.pdf";
+import Model2025Q from "./Modeling-2025-questions.pdf";
+import ModelOldQ from "./modelOldQ.pdf";
+import ModelSa7dan from "./modelSa7dan.pdf";
+
 export {
   Absorption,
   Diffusion,
@@ -51,4 +61,12 @@ export {
   Heat2025Q,
   HeatMarks,
   HeatSa7dan,
+  ModelL1,
+  ModelL2,
+  ModelL3,
+  ModelL4,
+  ModelOldQ,
+  Model2025Q,
+  ModelSa7dan,
+  ModelMarks,
 };

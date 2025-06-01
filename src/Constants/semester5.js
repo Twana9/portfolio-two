@@ -19,6 +19,14 @@ import {
   Heat2025Q,
   HeatMarks,
   HeatSa7dan,
+  ModelL1,
+  ModelL2,
+  ModelL3,
+  ModelL4,
+  ModelOldQ,
+  Model2025Q,
+  ModelSa7dan,
+  ModelMarks,
 } from "../assets/semester5";
 
 const unit = {
@@ -61,4 +69,16 @@ const heat = {
   HeatMarks: HeatMarks,
   HeatSa7dan,
 };
-export { unit, reactor, lab3a, industry, heat };
+const model = {
+  id: 6,
+  name: "model",
+  ModelL1: ModelL1,
+  ModelL2: ModelL2,
+  ModelL3: ModelL3,
+  ModelL4: ModelL4,
+  ModelOldQ: ModelOldQ,
+  Model2025Q: Model2025Q,
+  ModelSa7dan: ModelSa7dan,
+  ModelMarks: ModelMarks,
+};
+export { unit, reactor, lab3a, industry, heat, model };

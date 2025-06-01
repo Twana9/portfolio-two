@@ -1,4 +1,11 @@
-import { unit, reactor, lab3a, industry, heat } from "../Constants/semester5";
+import {
+  unit,
+  reactor,
+  lab3a,
+  industry,
+  heat,
+  model,
+} from "../Constants/semester5";
 import { motion } from "framer-motion";
 import Moon from "../../public/moon3.webp";
 import "./stage3.css";
@@ -566,6 +573,200 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Midterm + Final-Xuli1 2025
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                className="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span className="icon2"></span>
+            </div>
+          </a>
+        </button>
+      </motion.div>
+
+      {/* ///////////////Modelling///////////////////////////////////////////////////////////////////////////////////// */}
+
+      <motion.h1
+        initial={{ x: "200px", opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
+        className="text-2xl font-palanquin text-slate-700 md:text-3xl mb-6
+      font-semibold  mt-10 scroll-m-16 w-full text-center"
+      >
+        Mathmatical Modelling
+      </motion.h1>
+
+      <motion.div
+        initial={{ x: "200px", opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
+        className="flex flex-col justify-center items-center p-9 w-full gap-5"
+      >
+        <button
+          className=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a href={model.ModelL1} className="flex justify-between items-center">
+            Lecture 1 answers
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                className="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span className="icon2"></span>
+            </div>
+          </a>
+        </button>
+        <button
+          className=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a href={model.ModelL2} className="flex justify-between items-center">
+            Lecture 2 answers
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                className="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span className="icon2"></span>
+            </div>
+          </a>
+        </button>
+        <button
+          className=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a href={model.ModelL3} className="flex justify-between items-center">
+            Lecture 3 answers
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                className="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span className="icon2"></span>
+            </div>
+          </a>
+        </button>
+        <button
+          className=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a href={model.ModelL4} className="flex justify-between items-center">
+            Lecture 4 answers
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                className="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span className="icon2"></span>
+            </div>
+          </a>
+        </button>
+        <button
+          className=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a
+            href={model.ModelOldQ}
+            className="flex justify-between items-center"
+          >
+            Midterms & Finals of last years
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                className="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span className="icon2"></span>
+            </div>
+          </a>
+        </button>
+        <button
+          className=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a
+            href={model.Model2025Q}
+            className="flex justify-between items-center"
+          >
+            Midterm & Final_xuli_1 of 2025
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                className="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span className="icon2"></span>
+            </div>
+          </a>
+        </button>
+        <button
+          className=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a
+            href={model.ModelSa7dan}
+            className="flex justify-between items-center"
+          >
+            Politics of Sa7dan (very good)
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                className="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span className="icon2"></span>
+            </div>
+          </a>
+        </button>
+        <button
+          className=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a
+            href={model.ModelMarks}
+            className="flex justify-between items-center"
+          >
+            PreFinal Marks 2025
             <div className="flex flex-col justify-center items-center">
               <svg
                 className="svgIcon"
