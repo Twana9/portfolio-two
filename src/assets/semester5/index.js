@@ -40,6 +40,25 @@ import Model2025Q from "./Modeling-2025-questions.pdf";
 import ModelOldQ from "./modelOldQ.pdf";
 import ModelSa7dan from "./modelSa7dan.pdf";
 
+////////economic and statistics///////////////////
+import EcoOldQ from "./economicOldQ.pdf";
+import EcoMarks from "./economicMarks.pdf";
+import Eco2025Q from "./Economic-2025-questions.pdf";
+
+////////Lab 3-II ////////////////////////////////////
+import CSTRSeries from "./CSTRSeries.pdf";
+import SingleCSTR from "./SingleCSTR.pdf";
+import Tubular from "./tubularFlowReactor.pdf";
+import Laminar from "./LaminarFlowReactor.pdf";
+import LD from "./linearHeatTransferDiff.pdf";
+import LT from "./LinearHeatTransfer.pdf";
+import Shell from "./ShellAndTube.pdf";
+import LabMarks from "./PrefinalLab2b.pdf";
+
+////////Plant ///////////////////////////////////////
+import Plant2025Q from "./plant-2025-questions.pdf";
+import PlantMarks from "./plant-marks.pdf";
+
 export {
   Absorption,
   Diffusion,
@@ -69,4 +88,17 @@ export {
   Model2025Q,
   ModelSa7dan,
   ModelMarks,
+  Eco2025Q,
+  EcoOldQ,
+  EcoMarks,
+  Plant2025Q,
+  PlantMarks,
+  Shell,
+  SingleCSTR,
+  CSTRSeries,
+  LD,
+  LT,
+  Laminar,
+  Tubular,
+  LabMarks,
 };

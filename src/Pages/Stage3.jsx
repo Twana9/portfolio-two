@@ -5,6 +5,9 @@ import {
   industry,
   heat,
   model,
+  eco,
+  plant,
+  lab3b,
 } from "../Constants/semester5";
 import { motion } from "framer-motion";
 import Moon from "../../public/moon3.webp";
@@ -52,7 +55,6 @@ export default function Stage3() {
       >
         Unit Operation
       </motion.h1>
-
       <motion.div
         initial={{ x: "200px", opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -212,7 +214,6 @@ export default function Stage3() {
           </a>
         </button>
       </motion.div>
-
       {/* /////////reactor////////////// */}
       <motion.h1
         initial={{ x: "200px", opacity: 0 }}
@@ -224,7 +225,6 @@ export default function Stage3() {
       >
         Reactor Design
       </motion.h1>
-
       <motion.div
         initial={{ x: "200px", opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -359,7 +359,6 @@ export default function Stage3() {
       >
         Lab-3
       </motion.h1>
-
       <motion.div
         initial={{ x: "200px", opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -465,7 +464,6 @@ export default function Stage3() {
       >
         Chemical Industries
       </motion.h1>
-
       <motion.div
         initial={{ x: "200px", opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -587,9 +585,7 @@ export default function Stage3() {
           </a>
         </button>
       </motion.div>
-
       {/* ///////////////Modelling///////////////////////////////////////////////////////////////////////////////////// */}
-
       <motion.h1
         initial={{ x: "200px", opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -600,7 +596,6 @@ export default function Stage3() {
       >
         Mathmatical Modelling
       </motion.h1>
-
       <motion.div
         initial={{ x: "200px", opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -767,6 +762,338 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             PreFinal Marks 2025
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                className="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span className="icon2"></span>
+            </div>
+          </a>
+        </button>
+      </motion.div>
+      {/* //////////////////Economic//////////////////////////////////////////////////////////////////////////// */}
+      <motion.h1
+        initial={{ x: "200px", opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
+        className="text-2xl font-palanquin text-slate-700 md:text-3xl mb-6
+      font-semibold  mt-10 scroll-m-16 w-full text-center"
+      >
+        Economic & Statistics
+      </motion.h1>
+      <motion.div
+        initial={{ x: "200px", opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
+        className="flex flex-col justify-center items-center p-9 w-full gap-5"
+      >
+        <button
+          className=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a href={eco.EcoOldQ} className="flex justify-between items-center">
+            Final & Midterm of the last years
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                className="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span className="icon2"></span>
+            </div>
+          </a>
+        </button>
+        <button
+          className=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a href={eco.Eco2025Q} className="flex justify-between items-center">
+            Final-Xuli1 & Midterm of 2025
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                className="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span className="icon2"></span>
+            </div>
+          </a>
+        </button>
+        <button
+          className=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a href={eco.EcoMarks} className="flex justify-between items-center">
+            PreFinal Marks of 2025
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                className="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span className="icon2"></span>
+            </div>
+          </a>
+        </button>
+      </motion.div>
+      {/* /////////////////////////////Plant ///////////////////////////////////////////////////////////////// */}
+      <motion.h1
+        initial={{ x: "200px", opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
+        className="text-2xl font-palanquin text-slate-700 md:text-3xl mb-6
+      font-semibold  mt-10 scroll-m-16 w-full text-center"
+      >
+        Plant Design
+      </motion.h1>
+      <motion.div
+        initial={{ x: "200px", opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
+        className="flex flex-col justify-center items-center p-9 w-full gap-5"
+      >
+        <button
+          className=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a
+            href={plant.Plant2025Q}
+            className="flex justify-between items-center"
+          >
+            Final-xuli1 & Midterm Of 2025
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                className="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span className="icon2"></span>
+            </div>
+          </a>
+        </button>
+        <button
+          className=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a
+            href={plant.PlantMarks}
+            className="flex justify-between items-center"
+          >
+            PreFinal Marks Of 2025
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                className="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span className="icon2"></span>
+            </div>
+          </a>
+        </button>
+      </motion.div>
+      {/* /////////////////////////Lab3-II///////////////////////////////////////////////////////// */}
+      <motion.h1
+        initial={{ x: "200px", opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
+        className="text-2xl font-palanquin text-slate-700 md:text-3xl mb-6
+      font-semibold  mt-10 scroll-m-16 w-full text-center"
+      >
+        Lab 3-II
+      </motion.h1>
+      <motion.div
+        initial={{ x: "200px", opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
+        className="flex flex-col justify-center items-center p-9 w-full gap-5"
+      >
+        <button
+          className=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a href={lab3b.Shell} className="flex justify-between items-center">
+            Shell & Tube Heat Exchanger
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                className="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span className="icon2"></span>
+            </div>
+          </a>
+        </button>
+        <button
+          className=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a href={lab3b.LT} className="flex justify-between items-center">
+            Linear Heat Transfer
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                className="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span className="icon2"></span>
+            </div>
+          </a>
+        </button>{" "}
+        <button
+          className=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a href={lab3b.LD} className="flex justify-between items-center">
+            Linear Heat Transfer Different Area
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                className="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span className="icon2"></span>
+            </div>
+          </a>
+        </button>{" "}
+        <button
+          className=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a href={lab3b.Tubular} className="flex justify-between items-center">
+            Tubular Flow Reactor
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                className="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span className="icon2"></span>
+            </div>
+          </a>
+        </button>{" "}
+        <button
+          className=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a
+            href={lab3b.SingleCSTR}
+            className="flex justify-between items-center"
+          >
+            Single CSTR Reactor
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                className="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span className="icon2"></span>
+            </div>
+          </a>
+        </button>{" "}
+        <button
+          className=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a
+            href={lab3b.CSTRSeries}
+            className="flex justify-between items-center"
+          >
+            CSTR In Series
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                className="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span className="icon2"></span>
+            </div>
+          </a>
+        </button>{" "}
+        <button
+          className=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a href={lab3b.Laminar} className="flex justify-between items-center">
+            Laminar Flow Reactor
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                className="svgIcon"
+                viewBox="0 0 384 512"
+                height="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+              </svg>
+              <span className="icon2"></span>
+            </div>
+          </a>
+        </button>{" "}
+        <button
+          className=" text-xl w-[50%] px-5 rounded-xl
+         bg-purple-500 h-[60px] text-white font-bold 
+         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
+        >
+          <a
+            href={lab3b.LabMarks}
+            className="flex justify-between items-center"
+          >
+            PreFinal Marks of 2025
             <div className="flex flex-col justify-center items-center">
               <svg
                 className="svgIcon"

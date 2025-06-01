@@ -27,6 +27,19 @@ import {
   Model2025Q,
   ModelSa7dan,
   ModelMarks,
+  Eco2025Q,
+  EcoOldQ,
+  EcoMarks,
+  Plant2025Q,
+  PlantMarks,
+  Shell,
+  SingleCSTR,
+  CSTRSeries,
+  LD,
+  LT,
+  Laminar,
+  Tubular,
+  LabMarks,
 } from "../assets/semester5";
 
 const unit = {
@@ -81,4 +94,29 @@ const model = {
   ModelSa7dan: ModelSa7dan,
   ModelMarks: ModelMarks,
 };
-export { unit, reactor, lab3a, industry, heat, model };
+const eco = {
+  id: 7,
+  name: "eco",
+  Eco2025Q: Eco2025Q,
+  EcoMarks: EcoMarks,
+  EcoOldQ: EcoOldQ,
+};
+const lab3b = {
+  id: 8,
+  name: "lab3b",
+  Shell: Shell,
+  LD: LD,
+  LT: LT,
+  CSTRSeries: CSTRSeries,
+  SingleCSTR: SingleCSTR,
+  Tubular: Tubular,
+  Laminar: Laminar,
+  LabMarks: LabMarks,
+};
+const plant = {
+  id: 9,
+  name: "plant",
+  Plant2025Q: Plant2025Q,
+  PlantMarks: PlantMarks,
+};
+export { unit, reactor, lab3a, industry, heat, model, plant, lab3b, eco };
