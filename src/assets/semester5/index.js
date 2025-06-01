@@ -53,7 +53,7 @@ import Laminar from "./LaminarFlowReactor.pdf";
 import LD from "./linearHeatTransferDiff.pdf";
 import LT from "./LinearHeatTransfer.pdf";
 import Shell from "./ShellAndTube.pdf";
-import LabMarks from "./PrefinalLab2b.pdf";
+import LabMarks from "./aa.pdf";
 
 ////////Plant ///////////////////////////////////////
 import Plant2025Q from "./plant-2025-questions.pdf";
