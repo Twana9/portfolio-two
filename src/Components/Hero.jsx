@@ -41,7 +41,7 @@ export default function Hero() {
           className="text-gray-600 text-base md:text-xl max-sm:text-sm
           "
         >
-          Stage Three student at Koya University
+          Stage Four student at Koya University
         </motion.p>
       </div>
 
