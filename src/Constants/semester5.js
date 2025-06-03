@@ -17,7 +17,7 @@ import {
   BatchReactor,
   IndustryQuestions,
   Heat2025Q,
-  HeatMarks,
+  HeatMarks1,
   HeatSa7dan,
   ModelL1,
   ModelL2,
@@ -26,12 +26,12 @@ import {
   ModelOldQ,
   Model2025Q,
   ModelSa7dan,
-  ModelMarks,
+  ModelMarks1,
   Eco2025Q,
   EcoOldQ,
-  EcoMarks,
+  EcoMarks1,
   Plant2025Q,
-  PlantMarks,
+  PlantMarks1,
   Shell,
   SingleCSTR,
   CSTRSeries,
@@ -39,7 +39,7 @@ import {
   LT,
   Laminar,
   Tubular,
-  LabMarks,
+  LabMarks1,
 } from "../assets/semester5";
 
 const unit = {
@@ -79,7 +79,7 @@ const heat = {
   id: 5,
   name: "heat",
   Heat2025Q: Heat2025Q,
-  HeatMarks: HeatMarks,
+  HeatMarks: HeatMarks1,
   HeatSa7dan,
 };
 const model = {
@@ -92,13 +92,13 @@ const model = {
   ModelOldQ: ModelOldQ,
   Model2025Q: Model2025Q,
   ModelSa7dan: ModelSa7dan,
-  ModelMarks: ModelMarks,
+  ModelMarks: ModelMarks1,
 };
 const eco = {
   id: 7,
   name: "eco",
   Eco2025Q: Eco2025Q,
-  EcoMarks: EcoMarks,
+  EcoMarks: EcoMarks1,
   EcoOldQ: EcoOldQ,
 };
 const lab3b = {
@@ -111,12 +111,12 @@ const lab3b = {
   SingleCSTR: SingleCSTR,
   Tubular: Tubular,
   Laminar: Laminar,
-  LabMarks: LabMarks,
+  LabMarks: LabMarks1,
 };
 const plant = {
   id: 9,
   name: "plant",
   Plant2025Q: Plant2025Q,
-  PlantMarks: PlantMarks,
+  PlantMarks: PlantMarks1,
 };
 export { unit, reactor, lab3a, industry, heat, model, plant, lab3b, eco };

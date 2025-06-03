@@ -26,7 +26,7 @@ import IndustryQuestions from "./questions.pdf";
 
 ////////Heat Transfer///////////////////////////////
 import Heat2025Q from "./heat-2025-questions.pdf";
-import HeatMarks from "./heat-marks.pdf";
+import HeatMarks1 from "./heat-marks.pdf";
 import HeatSa7dan from "./Heat-sa7dan.pdf";
 // import HeatPP from "./heat-pp.pptx";
 
@@ -35,14 +35,14 @@ import ModelL1 from "./modelL1.pdf";
 import ModelL2 from "./modelL2.pdf";
 import ModelL3 from "./modelL3.pdf";
 import ModelL4 from "./modelL4.pdf";
-import ModelMarks from "./modelMarks.pdf";
+import ModelMarks1 from "./modelMarks.pdf";
 import Model2025Q from "./Modeling-2025-questions.pdf";
 import ModelOldQ from "./modelOldQ.pdf";
 import ModelSa7dan from "./modelSa7dan.pdf";
 
 ////////economic and statistics///////////////////
 import EcoOldQ from "./economicOldQ.pdf";
-import EcoMarks from "./economicMarks.pdf";
+import EcoMarks1 from "./economicMarks.pdf";
 import Eco2025Q from "./Economic-2025-questions.pdf";
 
 ////////Lab 3-II ////////////////////////////////////
@@ -53,11 +53,11 @@ import Laminar from "./LaminarFlowReactor.pdf";
 import LD from "./linearHeatTransferDiff.pdf";
 import LT from "./LinearHeatTransfer.pdf";
 import Shell from "./ShellAndTube.pdf";
-import LabMarks from "./aa.pdf";
+import LabMarks1 from "./aa.pdf";
 
 ////////Plant ///////////////////////////////////////
 import Plant2025Q from "./plant-2025-questions.pdf";
-import PlantMarks from "./plant-marks.pdf";
+import PlantMarks1 from "./plant-marks.pdf";
 
 export {
   Absorption,
@@ -78,7 +78,7 @@ export {
   BatchReactor,
   IndustryQuestions,
   Heat2025Q,
-  HeatMarks,
+  HeatMarks1,
   HeatSa7dan,
   ModelL1,
   ModelL2,
@@ -87,12 +87,12 @@ export {
   ModelOldQ,
   Model2025Q,
   ModelSa7dan,
-  ModelMarks,
+  ModelMarks1,
   Eco2025Q,
   EcoOldQ,
-  EcoMarks,
+  EcoMarks1,
   Plant2025Q,
-  PlantMarks,
+  PlantMarks1,
   Shell,
   SingleCSTR,
   CSTRSeries,
@@ -100,5 +100,5 @@ export {
   LT,
   Laminar,
   Tubular,
-  LabMarks,
+  LabMarks1,
 };
