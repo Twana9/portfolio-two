@@ -519,30 +519,6 @@ export default function Stage3() {
          max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
         >
           <a
-            href={heat.HeatMarks}
-            className="flex justify-between items-center"
-          >
-            PreFinal Marks 2025
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
-            </div>
-          </a>
-        </button>
-
-        <button
-          className=" text-xl w-[50%] px-5 rounded-xl
-         bg-purple-500 h-[60px] text-white font-bold 
-         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
-        >
-          <a
             href={heat.HeatSa7dan}
             className="flex justify-between items-center"
           >
@@ -752,29 +728,6 @@ export default function Stage3() {
             </div>
           </a>
         </button>
-        <button
-          className=" text-xl w-[50%] px-5 rounded-xl
-         bg-purple-500 h-[60px] text-white font-bold 
-         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
-        >
-          <a
-            href={model.ModelMarks}
-            className="flex justify-between items-center"
-          >
-            PreFinal Marks 2025
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
-            </div>
-          </a>
-        </button>
       </motion.div>
       {/* //////////////////Economic//////////////////////////////////////////////////////////////////////////// */}
       <motion.h1
@@ -834,26 +787,6 @@ export default function Stage3() {
             </div>
           </a>
         </button>
-        <button
-          className=" text-xl w-[50%] px-5 rounded-xl
-         bg-purple-500 h-[60px] text-white font-bold 
-         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
-        >
-          <a href={eco.EcoMarks} className="flex justify-between items-center">
-            PreFinal Marks of 2025
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
-            </div>
-          </a>
-        </button>
       </motion.div>
       {/* /////////////////////////////Plant ///////////////////////////////////////////////////////////////// */}
       <motion.h1
@@ -883,29 +816,6 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Final-xuli1 & Midterm Of 2025
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
-            </div>
-          </a>
-        </button>
-        <button
-          className=" text-xl w-[50%] px-5 rounded-xl
-         bg-purple-500 h-[60px] text-white font-bold 
-         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
-        >
-          <a
-            href={plant.PlantMarks}
-            className="flex justify-between items-center"
-          >
-            PreFinal Marks Of 2025
             <div className="flex flex-col justify-center items-center">
               <svg
                 className="svgIcon"
@@ -1084,29 +994,6 @@ export default function Stage3() {
             </div>
           </a>
         </button>{" "}
-        <button
-          className=" text-xl w-[50%] px-5 rounded-xl
-         bg-purple-500 h-[60px] text-white font-bold 
-         max-lg:w-[70%] max-md:w-[88%] max-sm:text-sm max-sm:w-[100%]"
-        >
-          <a
-            href={lab3b.LabMarks}
-            className="flex justify-between items-center"
-          >
-            PreFinal Marks of 2025
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
-            </div>
-          </a>
-        </button>
       </motion.div>
     </div>
   );
