@@ -44,7 +44,7 @@ export default function Stage3() {
           />
         </motion.div>
       </div>
-      ///////PDF/////////
+      {/* ///////PDF///////// */}
       <motion.h1
         initial={{ x: "200px", opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -284,16 +284,22 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Sheet-1 answers
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={reactor.Sheet1}
+                download={reactor.Sheet1}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -307,16 +313,22 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Sheet-2 answers
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={reactor.Sheet2}
+                download={reactor.Sheet2}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -330,16 +342,22 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Sheet-3 answers
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={reactor.Sheet3}
+                download={reactor.Sheet3}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -353,16 +371,22 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Sheet-4 answers
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={reactor.Sheet4}
+                download={reactor.Sheet4}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -376,16 +400,22 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Final & Midterm Questions + Sa7dan
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={reactor.ReactorQuestions}
+                download={reactor.ReactorQuestions}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -415,16 +445,22 @@ export default function Stage3() {
         >
           <a href={lab3a.Heat1} className="flex justify-between items-center">
             Double Pipe Heat exchanger
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={reactor.Heat1}
+                download={reactor.Heat1}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -435,16 +471,22 @@ export default function Stage3() {
         >
           <a href={lab3a.Service} className="flex justify-between items-center">
             Service unit & Control interface
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={lab3a.Service}
+                download={lab3a.Service}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -458,16 +500,22 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Preparing of Solutions
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={lab3a.Solutions}
+                download={lab3a.Solutions}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -481,16 +529,22 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Batch Reactor
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={lab3a.BatchReactor}
+                download={lab3a.BatchReactor}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -523,16 +577,22 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Final & Midterm Questions
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={industry.IndustryQuestions}
+                download={industry.IndustryQuestions}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -565,16 +625,22 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Sa7dan
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={heat.HeatSa7dan}
+                download={heat.HeatSa7dan}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -589,16 +655,22 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Midterm + Final-Xuli1 2025
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={heat.Heat2025Q}
+                download={heat.Heat2025Q}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -628,16 +700,22 @@ export default function Stage3() {
         >
           <a href={model.ModelL1} className="flex justify-between items-center">
             Lecture 1 answers
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={model.ModelL1}
+                download={model.ModelL1}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -648,16 +726,22 @@ export default function Stage3() {
         >
           <a href={model.ModelL2} className="flex justify-between items-center">
             Lecture 2 answers
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={model.ModelL2}
+                download={model.ModelL2}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -668,16 +752,22 @@ export default function Stage3() {
         >
           <a href={model.ModelL3} className="flex justify-between items-center">
             Lecture 3 answers
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={model.ModelL3}
+                download={model.ModelL3}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -688,16 +778,22 @@ export default function Stage3() {
         >
           <a href={model.ModelL4} className="flex justify-between items-center">
             Lecture 4 answers
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={model.ModelL4}
+                download={model.ModelL4}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -711,16 +807,22 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Midterms & Finals of last years
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={model.ModelOldQ}
+                download={model.ModelOldQ}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -734,16 +836,22 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Midterm & Final_xuli_1 of 2025
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={model.Model2025Q}
+                download={model.Model2025Q}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -757,16 +865,22 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Politics of Sa7dan (very good)
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={model.ModelSa7dan}
+                download={model.ModelSa7dan}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -796,16 +910,22 @@ export default function Stage3() {
         >
           <a href={eco.EcoOldQ} className="flex justify-between items-center">
             Final & Midterm of the last years
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={eco.EcoOldQ}
+                download={eco.EcoOldQ}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -816,16 +936,22 @@ export default function Stage3() {
         >
           <a href={eco.Eco2025Q} className="flex justify-between items-center">
             Final-Xuli1 & Midterm of 2025
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={eco.Eco2025Q}
+                download={eco.Eco2025Q}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -858,16 +984,22 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Final-xuli1 & Midterm Of 2025
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={plant.Plant2025Q}
+                download={plant.Plant2025Q}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -897,16 +1029,22 @@ export default function Stage3() {
         >
           <a href={lab3b.Shell} className="flex justify-between items-center">
             Shell & Tube Heat Exchanger
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={lab3b.Shell}
+                download={lab3b.Shell}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -917,19 +1055,25 @@ export default function Stage3() {
         >
           <a href={lab3b.LT} className="flex justify-between items-center">
             Linear Heat Transfer
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={lab3b.LT}
+                download={lab3b.LT}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
-        </button>{" "}
+        </button>
         <button
           className=" text-xl w-[50%] px-5 rounded-xl
          bg-purple-500 h-[60px] text-white font-bold 
@@ -937,19 +1081,25 @@ export default function Stage3() {
         >
           <a href={lab3b.LD} className="flex justify-between items-center">
             Linear Heat Transfer Different Area
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={lab3b.LD}
+                download={lab3b.LD}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
-        </button>{" "}
+        </button>
         <button
           className=" text-xl w-[50%] px-5 rounded-xl
          bg-purple-500 h-[60px] text-white font-bold 
@@ -957,16 +1107,22 @@ export default function Stage3() {
         >
           <a href={lab3b.Tubular} className="flex justify-between items-center">
             Tubular Flow Reactor
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={lab3b.Tubular}
+                download={lab3b.Tubular}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>{" "}
@@ -980,16 +1136,22 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Single CSTR Reactor
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={lab3b.SingleCSTR}
+                download={lab3b.SingleCSTR}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>{" "}
@@ -1003,16 +1165,22 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             CSTR In Series
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={lab3b.CSTRSeries}
+                download={lab3b.CSTRSeries}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>{" "}
@@ -1023,16 +1191,22 @@ export default function Stage3() {
         >
           <a href={lab3b.Laminar} className="flex justify-between items-center">
             Laminar Flow Reactor
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={lab3b.Laminar}
+                download={lab3b.Laminar}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>{" "}
