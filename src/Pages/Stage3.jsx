@@ -44,7 +44,7 @@ export default function Stage3() {
           />
         </motion.div>
       </div>
-      {/* ///////PDF///////// */}
+      ///////PDF/////////
       <motion.h1
         initial={{ x: "200px", opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -72,16 +72,22 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Absorption Sheet
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={unit.Absorption}
+                download={unit.Absorption}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -95,16 +101,22 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Diffusion Sheet
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={unit.Diffusion}
+                download={unit.Diffusion}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -115,16 +127,22 @@ export default function Stage3() {
         >
           <a href={unit.Liquid} className="flex justify-between items-center">
             Extraction Sheet
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={unit.Liquid}
+                download={unit.Liquid}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -134,16 +152,22 @@ export default function Stage3() {
         >
           <a href={unit.Report} className="flex justify-between items-center">
             The Report which got the best mark 6/6.5
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={unit.Report}
+                download={unit.Report}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -157,16 +181,22 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Final & Midterm Questions
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={unit.UnitQuestions}
+                download={unit.UnitQuestions}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -177,16 +207,22 @@ export default function Stage3() {
         >
           <a href={unit.Sa7dan} className="flex justify-between items-center">
             Politics of Sa7dan
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={unit.Sa7dan}
+                download={unit.Sa7dan}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>
@@ -200,16 +236,22 @@ export default function Stage3() {
             className="flex justify-between items-center"
           >
             Final xuli 2 (2024 - 2025)
-            <div className="flex flex-col justify-center items-center">
-              <svg
-                className="svgIcon"
-                viewBox="0 0 384 512"
-                height="1em"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <a
+                className="flex flex-col justify-center items-center"
+                href={unit.UnitXuli2}
+                download={unit.UnitXuli2}
               >
-                <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
-              </svg>
-              <span className="icon2"></span>
+                <svg
+                  className="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+                </svg>
+                <span className="icon2"></span>
+              </a>
             </div>
           </a>
         </button>

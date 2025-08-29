@@ -25,7 +25,7 @@ export default function Hero() {
           initial={{ y: "-140px", opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="text-3xl lg:text-4xl font-bold text-gray-800
+          className="text-3xl lg:text-4xl font-bold bg-purple
         md:text-[38px] md:leading-10"
         >
           A{" "}
@@ -37,7 +37,7 @@ export default function Hero() {
         <motion.p
           initial={{ y: "-120px", opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.8, ease: "easeInOut" }}
+          transition={{ duration: 0.6, ease: "easeInOut" }}
           className="text-gray-600 text-base md:text-xl max-sm:text-sm
           "
         >
@@ -47,9 +47,9 @@ export default function Hero() {
 
       {/* Right Section */}
       <motion.div
-        initial={{ scale: 0.5, opacity: 0 }}
+        initial={{ scale: 0.4, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 0.8, ease: "easeIn" }}
+        transition={{ duration: 0.6, ease: "easeInOut" }}
         className="mt-6 md:mt-0 md:w-1/2 flex justify-center"
       >
         <img
@@ -57,7 +57,7 @@ export default function Hero() {
           alt="Profile"
           className="w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] 
           sm:w-[300px] sm:h-[300px]
-          rounded-3xl object-cover shadow-lg"
+          rounded-3xl object-cover shadow-4xl"
         />
       </motion.div>
     </div>
