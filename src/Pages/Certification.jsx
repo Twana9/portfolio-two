@@ -1,4 +1,8 @@
 import Cert from "../assets/certification.jpg";
+import One from "../assets/one--.jpg";
+import Two from "../assets/two---.jpg";
+import Three from "../assets/three---.jpg";
+import Four from "../assets/four---.jpg";
 import { motion } from "framer-motion";
 export default function Certification() {
   return (
@@ -22,7 +26,7 @@ export default function Certification() {
         rounded-md border-pink-400 shadow-md
       border-b-4 bg-white overflow-hidden"
       >
-        <img src={Cert} alt="" className="" />
+        <img src={One} alt="" className="" />
       </motion.div>
       <motion.div
         initial={{ scale: 0.7 }}
@@ -33,7 +37,18 @@ export default function Certification() {
         rounded-md border-pink-400 shadow-md
       border-b-4 bg-white overflow-hidden"
       >
-        <img src={Cert} alt="" className="" />
+        <img src={Two} alt="" className="" />
+      </motion.div>
+      <motion.div
+        initial={{ scale: 0.7 }}
+        whileInView={{ scale: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeInOut" }}
+        className="w-[340px] h-[241px] border-[0.1px]
+        rounded-md border-pink-400 shadow-md
+      border-b-4 bg-white overflow-hidden "
+      >
+        <img src={Three} alt="" className="h-[100%] justify-self-center" />
       </motion.div>
       <motion.div
         initial={{ scale: 0.7 }}
@@ -44,7 +59,7 @@ export default function Certification() {
         rounded-md border-pink-400 shadow-md
       border-b-4 bg-white overflow-hidden"
       >
-        <img src={Cert} alt="" className="" />
+        <img src={Four} alt="" className="" />
       </motion.div>
     </div>
   );
