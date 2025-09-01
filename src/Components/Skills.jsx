@@ -41,7 +41,7 @@ export default function Skills() {
           >
             Psychological analyzing
           </h3>
-          <p className="text-gray-500  mx-[5%] text-sm mt-3 overflow-y-auto">
+          <p className="text-gray-500  mx-[5%] text-sm mt-3 overflow-y-auto mb-2">
             I am not sure where or when I learned this, but I know how to read
             people and their behavior. People often say I’m really good at it. I
             never had the intention to learn it, but I think I picked it up from
@@ -119,9 +119,9 @@ export default function Skills() {
         >
           <div
             className="m-4 rounded-2xl bg-purple-100
-           w-[60px] h-[60px] flex justify-center items-center"
+           w-[60px] min-h-[60px] flex justify-center items-center"
           >
-            <img src={Oil} alt="ABC" className="w-[50px]" />
+            <img src={Oil} alt="ABC" className="w-[47px]" />
           </div>
           <h3
             className="text-start ml-[5%] font-palanquin
@@ -129,7 +129,7 @@ export default function Skills() {
           >
             Refinery Operating
           </h3>
-          <p className="text-gray-500  mx-[5%] text-sm mt-3 overflow-y-scroll">
+          <p className="text-gray-500  mx-[5%] text-sm mt-3 overflow-y-scroll mb-2">
             In stage three, Refinery was a popular subject among students, so
             when the teachers taught it, I paid close attention. During my
             summer training, I learned a lot about the process, and my curiosity

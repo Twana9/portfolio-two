@@ -44,7 +44,7 @@ export default function Stage3() {
           />
         </motion.div>
       </div>
-      {/* ///////PDF///////// */}
+
       <motion.h1
         initial={{ x: "200px", opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -448,8 +448,8 @@ export default function Stage3() {
             <div>
               <a
                 className="flex flex-col justify-center items-center"
-                href={reactor.Heat1}
-                download={reactor.Heat1}
+                href={lab3a.Heat1}
+                download={lab3a.Heat1}
               >
                 <svg
                   className="svgIcon"

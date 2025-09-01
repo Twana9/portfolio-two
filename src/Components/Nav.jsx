@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Profile from "../../public/logo.webp";
 import { Link } from "react-router-dom";
 import hamburger from "../assets/hamburger.svg";
+import { HashLink } from "react-router-hash-link";
 import "./Nav.css";
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -84,13 +85,19 @@ export default function Nav() {
           <Link to="/Stage3">Stage 3</Link>
         </li>
         <li className=" hover:cursor-pointer">
-          <a href="/#Skills">Skills</a>
+          <HashLink smooth to="/#Skills">
+            Skills
+          </HashLink>
         </li>
         <li className=" hover:cursor-pointer">
-          <a href="/#Projects">Projects</a>
+          <HashLink smooth to="/#Projects">
+            Projects
+          </HashLink>
         </li>
         <li className=" hover:cursor-pointer">
-          <Link to="/certifications">Certifications</Link>
+          <Link to="/certifications" onClick={() => top()}>
+            Certifications
+          </Link>
         </li>
       </ul>
       <div>
@@ -161,7 +168,9 @@ function Hamburger({ isMenuOpen, handleClose }) {
             }}
             className="li-small  hover:cursor-pointer"
           >
-            <a href="/#Skills">Skills</a>
+            <HashLink smooth to="/#Skills">
+              Skills
+            </HashLink>
           </li>
           <li
             onClick={(e) => {
@@ -169,7 +178,9 @@ function Hamburger({ isMenuOpen, handleClose }) {
             }}
             className="li-small  hover:cursor-pointer"
           >
-            <a href="/#Projects">Projects</a>
+            <HashLink smooth to="/#Projects">
+              Projects
+            </HashLink>
           </li>
           <li
             onClick={(e) => {
