@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import Refinery from "../assets/refinery.webp";
+import Zuber from "../assets/zuber.jpg";
+import ZuberPdf from "../assets/zuber.pdf";
 export default function Projects() {
   return (
     <>
@@ -33,7 +35,7 @@ export default function Projects() {
             <img
               src={Refinery}
               alt=""
-              className="w-[100%] h-[100%] 
+              className="w-[100%] h-[91%] 
           rounded-xl place-self-center transform hover:scale-[1.5]
            transition-transform duration-300 overflow-hidden
           "
@@ -49,6 +51,7 @@ export default function Projects() {
             a fake example of a project
           </p>
         </motion.div>
+        {/* /////zuber/////////////////////////////////////////////////////////////// */}
         <motion.div
           initial={{ scale: 0.7, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
@@ -57,7 +60,33 @@ export default function Projects() {
           className="bg-white border-[0.1px] border-purple-300 h-[290px]
   w-[290px] rounded-xl border-b-4 shadow-lg
   flex flex-col overflow-hidden cursor-pointer"
-        ></motion.div>
+        >
+          <a href={ZuberPdf}>
+            <div
+              className="overflow-hidden w-[93%] h-[59%] mt-[3%]
+          rounded-xl place-self-center"
+            >
+              <img
+                src={Zuber}
+                alt=""
+                className="w-[100%] h-[100%] 
+          rounded-xl place-self-center transform hover:scale-[1.5]
+           transition-transform duration-300 overflow-hidden
+          "
+              />
+            </div>
+            <h3
+              className="text-start ml-[5%] font-palanquin
+           text-slate-700 mt-4 font-semibold"
+            >
+              IPF Zubair Oil Feild
+            </h3>
+            <p className="text-gray-500  ml-[5%] text-sm mt-3">
+              We got this PFD from our summer training in basrah , its the
+              process flow diagram of IPF zubair if they didn't fool us
+            </p>
+          </a>
+        </motion.div>
         <motion.div
           initial={{ scale: 0.7, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
