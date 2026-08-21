@@ -32,7 +32,7 @@ export default function Hero() {
           <span className="bg-purple whitespace-nowrap">
             Chemical Engineering
           </span>{" "}
-          Student
+          Graduate
         </motion.h1>
         <motion.p
           initial={{ y: "-120px", opacity: 0 }}
@@ -41,7 +41,7 @@ export default function Hero() {
           className="text-gray-600 text-base md:text-xl max-sm:text-sm
           "
         >
-          Stage Four student at Koya University
+          Graduated From Koya University
         </motion.p>
       </div>
 
